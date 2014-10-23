@@ -7,6 +7,6 @@ Authors
 ===============
 
 * Fabian Priftaj
-* Giacomo Bergami <giacomo [dot] bergami2 {at} unibo <dot> it>
+* Giacomo Bergami ```<giacomo [dot] bergami2 {at} unibo <dot> it>```
 * Paolo de Luca
 * Matej Torok
