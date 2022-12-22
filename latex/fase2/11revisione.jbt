@@ -1,0 +1,77 @@
+\chapter{Revisioni delle stime precedenti}\label{cha:rdsp}
+\minitoc\mtcskip
+
+Dopo le considerazioni effettuate nel Capitolo \vref{cha:pds}, possiamo effettuare
+una prima revisione delle stime che sono state precedentemente effettuate (v.
+Sezione \vref{sec:mfsvds}).
+
+\section{Aggiunta di Tool di sviluppo}
+Si è introdotto \textsc{Inkscape} per la compilazione dei files di estensione 
+\textsc{svg} in \textsc{pdf}, e per modifiche grafiche ai diagrammi ottenuti 
+con \textsc{ArgoUML}
+
+\section{Revisione della valutazione dello sforzo}
+
+\subsection{Valutazione dell'analisi dello sforzo con gli Use Case}
+Si potrebbe pensare di effettuare una nuova valutazione della stima dello sforzo
+tramite l'impiego degli Use Case; di fatti, da questi use case, dipendono i 
+seguenti elementi di progettazione:
+%itemize
+\diam Dimensione dell'applicazione in LOC
+\diam Numero di test case prodotti
+.%
+Tuttavia, in quanto questi Use Case possono essere creati a differenti livelli
+di astrazione, non ci sentiamo di utilizzare questa tipologia di stima in sostituzione
+all'analisi precedente\footnote{R.S. Pressman: op. cit.}. Inoltre,
+non è nemmeno possibile utilizzare la formula di Smith\footnote{R.S. Pressman: 
+op. cit.}, in quanto non possediamo dati medi o/e storici in LOC per 
+use case di questo tipo di sistema, necessari al computo richiesto dalla formula.
+
+\subsection{Revisione dei computi effettuati precedentemente}
+In considerazione di quanto rilevato precedentemente, ed
+in seguito alla modifica dei requisiti apportata come conseguenza dell'incontro
+nel cliente, descritto nella Sezione \vref{sec:dsicc}, possiamo effettuare una
+revisione della stima dello sforzo rispetto alla valutazione fornita nel 
+\bf{Documento Primo}.
+
+\begin{table}[!t]
+\centering
+\begin{tabular}{cccc}
+\toprule
+\bf{Unadjusted Function Point (UFP)} & \bf{Tipologia} & \bf{Quantità}\\
+\midrule
+\it{Input (EI)} & Semplice & 2\\
+\it{Input (EI)} & Media & 3\\
+\it{Output (EO)} & Semplice & 1\\
+\it{Output (EO)} & Media & 2\\
+\it{Interrogazioni (EQ)} & Semplice & 8\\
+\it{File logici interni (ILF)} & - & 0\\
+\it{File logici esterni (EIF)} & Semplice & 1\\
+\bottomrule
+Totale & & 55\\
+\end{tabular}
+\caption{\it{Definizione degli} Unadjusted Function Point \it{: seconda stima}.}
+\label{tab:tdd5}
+\end{table}
+
+Rieffettuando la computazione delle stime precedentemente effettuate, abbiamo
+che l'unica variazione degna di nota si è riscontrata negli UFP, dei quali 
+rieffettuiamo la stima all'interno della Tabella \vref{tab:tdd5}, dovuta 
+al fatto che si è preferito unire interfacce grafiche con compiti simili.
+\[%split
+FP &= conteggio-UFP \cdot (0.65+0.01\cdot\sum_{i=1}^{14} F_i)\\
+   &= 55\cdot (0.65+0.01\cdot 26)=50.05
+.%\]
+Considerando ancora il fattore di conversione FP/LOC con il linguaggio Java,
+otteniamo:
+\[LOC = 63\cdot 66=3153\]
+Da cui dalla stima di \it{Bailey-Basili}\footnote{R.S. Pressman: op. cit.}
+otteniamo:
+\[%split
+E_{bb} &= 5,5+0,7\cdot {KLOC}^{1,16} mesi/persona\\
+       &= 5.5+0.7\cdot {4,3}^{1.16}\simeq 8.15 mesi/persona
+.%\]
+Si osserva quindi una riduzione dei costi, basata unicamente dalla riduzione
+della stima effettuata dalla valutazione dei dati transitanti dell'interfaccia:
+tuttavia non reputiamo questa stima soddisfacente per la valutazione della
+complessità intrinseca del progetto.

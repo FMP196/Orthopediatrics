@@ -1,0 +1,46 @@
+\part{Documento Terzo}
+\chapter{Analisi I}\label{cha:pds}
+\minitoc\mtcskip
+\section{Premessa}
+La fase di sviluppo si strutturerà come segue:
+\begin{itemize}
+\diam \textit{Definizione del Modello di Progetto}
+
+Partendo dal \textit{Glossario} (Sezione \vref{sec:glossario}) definito nella fase 
+precedente, si %% TODO: link
+definiscono le prime schede CRC (v. Sezione\vref{sec:crccards}), dalle quali si 
+arriva  alla definizione del \textit{Modello di Dominio} del nostro applicativo 
+(v. Sezione \vref{sec:domainmodel}); da quest'ultimo discende pure
+l'\textit{Analisi del Database}.
+\medskip
+
+\diam \textit{Documento dell'architettura software}
+
+Si effettua una prima revisione del modello di dominio, iniziando con l'analisi
+delle operazioni fondamentali che saranno richieste dall'\textsc{Utente} del sistema
+per conto del \textsc{Paziente} (sè stesso o il suo tutelato).
+\medskip
+
+Partendo dalla trattazione dei Casi d'Uso, si effettua la descrizione 
+dell'architettura software mediante la \textbf{Vista dei Dati} mediante \textsc{Diagrammi
+di Attività}, e la \textbf{Vista dei Casi d'Uso} tramite \textsc{Diagrammi di Sequenza}.
+Questi verranno successivamente raffinati, una volta completato il \textit{Modello
+di Business} dell'applicazione.
+
+\end{itemize}
+Associamo inoltre i seguenti documenti:
+\begin{itemize}
+	\item \textit{Analisi del Database}:
+	(v. Capitolo \vref{cha:progdbasdata}) in seguito alla definizione del
+	modello di progetto, viene effettuata la struttureazione del database,
+	in modo da ottenere già le componenti base sulle quali effettuare.
+	\item \textit{Analisi del Client}:
+	(v. Capitolo \vref{sec:clientanalisys}) ci limitiamo a descrivere le
+	operazioni che possono essere effettuate tramite l'interfaccia grafica.
+	\item \textit{Analisi del Server}:
+	(v. Capitolo \vref{sec:serveranalisys}) anche in questo caso, ci limitiamo 
+	a descrivere le operazioni che possono essere effettuate tramite 
+	l'interfaccia grafica.
+\end{itemize}
+\bigskip
+

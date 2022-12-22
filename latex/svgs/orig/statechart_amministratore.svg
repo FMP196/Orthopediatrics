@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="140" version="1.1" width="588" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#00ff" height="64" rx="16" ry="16" stroke="#00ff" stroke-width="1" width="106" x="334" y="62"/>
+<rect fill="#ffffff" height="64" rx="16" ry="16" stroke="#ffffff" stroke-width="1" width="106" x="334" y="62"/>
+<rect fill="#ffffff" height="64" rx="16" ry="16" stroke="#000000" stroke-width="1" width="106" x="334" y="62"/>
+<text font-family="Dialog" font-size="12" x="358" y="75">
+logged in</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="334" x2="439" y1="85" y2="85"/>
+<text font-family="Dialog" font-size="12" x="336" y="97">
++ admin actions</text>
+<rect fill="#00ff" height="64" rx="16" ry="16" stroke="#00ff" stroke-width="1" width="104" x="134" y="62"/>
+<rect fill="#ffffff" height="64" rx="16" ry="16" stroke="#ffffff" stroke-width="1" width="104" x="134" y="62"/>
+<rect fill="#ffffff" height="64" rx="16" ry="16" stroke="#000000" stroke-width="1" width="104" x="134" y="62"/>
+<text font-family="Dialog" font-size="12" x="152" y="75">
+logged out</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="134" x2="237" y1="85" y2="85"/>
+<ellipse cx="22" cy="78" fill="#000000" rx="8.0" ry="8.0" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="30,78 134,78" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="122" x2="134" y1="85" y2="78"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="122" x2="134" y1="71" y2="78"/>
+<polyline fill="none" points="238,78 334,78" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="322" x2="334" y1="85" y2="78"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="322" x2="334" y1="71" y2="78"/>
+<text font-family="Dialog" font-size="12" x="265" y="72">
+log in</text>
+<polyline fill="none" points="334,110 238,110" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="250" x2="238" y1="103" y2="110"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="250" x2="238" y1="117" y2="110"/>
+<text font-family="Dialog" font-size="12" x="263" y="105">
+log out</text>
+<ellipse cx="562" cy="114" fill="#000000" rx="12.0" ry="12.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="562" cy="114" fill="#ffffff" rx="11.0" ry="11.0" stroke="#ffffff" stroke-width="1"/>
+<ellipse cx="561" cy="113" fill="#000000" rx="7.5" ry="7.5" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="440,113 550,113" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="538" x2="550" y1="120" y2="113"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="538" x2="550" y1="106" y2="113"/>
+<text font-family="Dialog" font-size="12" x="447" y="108">
+cancel account</text>
+<polygon fill="#ffffff" points="230,14 331,14 341,24 341,45 230,45 230,14" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="230,14 331,14 341,24 341,45 230,45 230,14" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="331,14 341,24 331,24 331,14" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="331,14 341,24 331,24 331,14" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="233" y="29">
+Amministratore</text>
+</svg>

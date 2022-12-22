@@ -1,0 +1,260 @@
+\textsc{Allegati}: \texttt{analisi\_rischi.ods}. Contiene il computo per la valutazione
+dello sforzo.
+
+\section{Capitolato}
+ I reparti ortopedia e pediatria di un ente ospedaliero hanno bisogno di una
+ applicazione che gestisse le prenotazioni dei pazienti. Il programma sara'
+ utilizzato da pazienti e amministratori che avranno maggiori permessi di
+ manipolazione sulle prenotazioni.
+ 
+ Le possibili operazioni per gli amministratori dovranno essere:
+%itemize
+\item Autenticazione
+\item Scelta del reparto
+\item Definire prenotazioni ad alta priorità
+\item Visualizzare ed aggiornare referti medici
+\item Visualizzare lo storico prenotazioni del paziente, e le date disponibili.
+\item Stampa
+.%
+ Le possibili operazioni per i pazienti dovranno essere:
+%itemize
+
+\item Registrazione/Autenticazione
+\item Scelta del reparto
+\item Effettuare una prenotazione
+\item Visualizzare lo storico prenotazioni e date disponibili
+\item Stampa 
+.%
+\section{Individuazione dei compiti (Risorse umane)}
+All'interno di questa fase, si assegnano i ruoli ai seguenti componenti del
+team \it{XYZT}
+%description
+\item[Project Manager] Matej Torok
+\item[Quality Manager] Giacomo Bergami
+\item[Tool Specialist] Paolo de Luca
+\item[Developer]       Fabian Priftaj
+.%
+
+Il committente di questo progetto è stato il gruppo ``CrySoft''.
+
+\section{Scadenze}
+In quanto questa è la nostra prima esperienza di sviluppo di programmazione in ambito
+ospedaliero, non possediamo uno storico atto a prefissare una scadenza entro le
+quali stabilire delle milestone(s): poiché
+nella programmazione extreme programming, si è abituati a seguire passo passo 
+l'evoluzione del progetto, punteremo man mano ad aggiornare il cliente ed effettuare
+piccoli rilasci successivi di codice funzionante.
+
+Elenchiamo qui sotto le scadenze:
+%description
+\item[Piano di Processo] 21-3-2012
+\item[Analisi dei Requisiti] 30-03-2012
+\item[Revisione al cliente dell'Analisi dei requisiti] 13-04-2012
+\item[Rilascio del prodotto al cliente e relazione finale] 25-05-2012
+.%
+Per il momento è noto che il cliente potrà valutare il prodotto entro il 
+\bf{31 Maggio 2012}.
+
+\section{Valutazione dello sforzo}\label{sec:mfsvds}
+Abbiamo la necessità
+di effettuare una prima valutazione approssimativa dello sforzo che ci verrà richiesto
+ai fini del svolgimento di questo progetto: effettuiamo quindi una stima dei
+\bf{function point}, tramite i \it{Unadjusted Function Point} (UFP) definiti come
+seguono:
+%itemize
+\diam Input (EI)
+\diam Interrogazioni (EQ)
+\diam Output (EO)
+\diam File logici interni (ILF)
+\diam File logici esterni (EIF)
+.%
+
+%table
+
+\centering
+\begin{tabular}{cccc}
+\toprule
+\bf{Unadjusted Function Point (UFP)} & \bf{Semplice} & \bf{Medio} & \bf {Arduo}\\
+\midrule
+\it{Input (EI)} & 3 & 4 & 6\\
+\it{Output (EO)} & 4 & 5 & 7\\
+\it{Interrogazioni (EQ)}& 3 & 4 & 6\\
+\it{File logici interni (ILF)} & 5 & 7 & 10\\
+\it{File logici esterni (EIF)} & 7 & 10 & 15\\
+\bottomrule
+
+\end{tabular}
+\caption{\it{Definizione degli} Unadjusted Function Point \it{ con
+definizione dei pesi in base al grado di difficoltà}.}
+\label{tab:tdd}
+
+.%
+
+%table
+
+\centering
+\begin{tabular}{cccc}
+\toprule
+\bf{Unadjusted Function Point (UFP)} & \bf{Tipologia} & \bf{Quantità}\\
+\midrule
+\it{Input (EI)} & Semplice & 2\\
+\it{Input (EI)} & Media & 6\\
+\it{Output (EO)} & Semplice & 3\\
+\it{Output (EO)} & Media & 2\\
+\it{Interrogazioni (EQ)} & Semplice & 8\\
+\it{File logici interni (ILF)} & - & 0\\
+\it{File logici esterni (EIF)} & Semplice & 1\\
+\bottomrule
+Totale & & 75\\
+\end{tabular}
+\caption{\it{Definizione degli} Unadjusted Function Point \it{ con
+definizione dei pesi in base al grado di difficoltà}.}
+\label{tab:tdd2}
+
+.%
+
+%table
+
+\centering
+\begin{tabular}{cc}
+\toprule
+\bf{VAF} & Valutazione scala 1-5\\
+\midrule
+F1 & 2\\
+F2 & 2\\
+F3 & 4\\
+F4 & 1\\
+F5 & 0\\
+F6 & 5\\
+F7 & 3\\
+F8 & 5\\
+F9 & 1\\
+F10 & 0\\
+F11 & 3\\
+F12 & 0\\
+F13 & 0\\
+F14 & 0\\
+\bottomrule
+Totale & 26\\
+\end{tabular}
+\caption{\it{Definizione degli} Unadjusted Function Point \it{ con
+definizione dei pesi in base al grado di difficoltà}.}
+\label{tab:tdd3}
+
+.%
+
+In Tabella ~\vref{tab:tdd} riportiamo la valutazione dei pesi assegnati ai precedenti capisaldi
+in base alla loro difficoltà\footnote{\tt{http://www.devshed.com/c/a/Practices/An-Overview-of-Function-Point-Analysis/3/}}. In Tabella  ~\vref{tab:tdd2} riportiamo conseguentemente
+i valori da noi utilizzati per effettuare la nostra stima: in quanto non possediamo
+ancora informazioni precise rispetto alle esigenze del cliente in merito alla 
+ navigabilità e l'usabilità del prodotto, ci basiamo unicamente sulle informazioni
+ deducibili dal capitolato pervenutoci. Per ogni \it{Value
+Adjustment Factors} (VAF), la cui lista viene proposta qui sotto, viene attribuito
+un \it{Degree of Influence} (DI), ottenendo la situazione riportata nella Tabella
+\vref{tab:tdd3}.
+
+%enumerate
+\item Il sistema ha bisogno di operazioni di backup e di ripristino affidabili?
+\item È necessario utilizzare comunicazioni specializzate per trasferire informazioni da o verso l'applicazione?
+\item Esistono funzioni di elaborazione distribuite?
+\item Le prestazioni rappresentano un fattore critico?
+\item Il sistema dovrà funzionare in un ambiente preesistente, pesantemente utilizzato?
+\item Il sistema richiede di inserire on-line dei dati?
+\item Il sistema on-line richiede una transazione di input costituita da più schermate od operazioni?
+\item I files IFL vengono aggiornati on-line?
+\item Esistono input/output, file od interrogazioni complesse?
+\item L'elaborazione interna è complessa?
+\item Il codice è progettato per essere riusabile?
+\item Nel progetto sono presenti la conversione e l'installazione?
+\item Il progetto è stato concepito per essere installato in più organizzazioni?
+\item L'applicazione è progettata per facilitare la modifica e l'usabilità da parte dei clienti?
+.%
+
+Possiamo in seguito effettuare il seguente computo:
+\[FP = conteggio-UFP \cdot (0.65+0.01\cdot\sum_{i=1}^{14} F_i)\]
+Ottenendo quindi
+\[FP = 75\cdot (0.65+0.01\cdot 26)=68.25\]
+Considerando inoltre che il fattore di conversione FP/LOC in base a Java, che è il
+linguaggio di implementazione del prodotto, è $fploc_{Java}=63$ come valore
+medio\footnote{R.S. Pressman: ``Principi di Ingegneria del Software''. McGraw-Hill
+editore.}, otterremo il seguente valore in LOC
+\[LOC = 63\cdot 66=4300\]
+Utilizzando inoltre la formula di \it{Bailey-Basili}\footnote{R.S. Pressman: op. cit.} per il calcolo dello sforzo, che è
+\[E_{bb} = 5,5+0,7\cdot {KLOC}^{1,16} mesi/persona\]
+Otteniamo
+\[E_{bb} = 5.5+0.7\cdot {4,3}^{1.16}\simeq 9.30 mesi/persona\]
+
+Bisogna notare che siamo giunti a questo risultato non conoscendo nulla 
+sulle esigenze del cliente, e quindi non conoscendo le user stories, come 
+imposto dall'XP. Ci rimandiamo pertanto alla discussione diretta con il cliente
+per effettuare un miglioramento della stima iniziale. Confidiamo nel fatto che,
+quella fornita, sia una sovrastima allo sforzo complessivo che ci verrà richiesto,
+e che riusciremo quindi meglio a valutare solo in seguito all'analisi delle 
+\it{user stories} che ci dovranno essere fornite dai clienti.
+
+\section{Analisi dei rischi}\label{sec:adr}
+A questo punto del progetto, non possiamo che fornire un'analisi molto generica
+dei rischi dello stesso.
+
+Il team è coeso e motivato a portare a termine il progetto, conseguentemente
+non ci dovrebbero essere né problemi di coesione con il team, né di relazioni
+personali fra le componenti del gruppo, in quanto tutti i membri del team hanno
+affrontato precedentemente altre collaborazioni. 
+
+Inoltre, in quanto XP si basa sulle tecniche di \bf{planning game}, non ci dovrebbero
+essere particolari problemi di scheduling, in quanto giorno per giorno verrà
+stabilito il da farsi. 
+
+I rischi che si possono riscontrare ora sono i due seguenti:
+%description
+\item[Ambiente di sviluppo] Non tutti i componenti del gruppo conoscono IDE di
+	sviluppo quali \it{Eclipse}: sarà quindi necessario un iniziale costo
+	sulla formazione del personale nella conoscenza dei tool da utilizzare.
+	Tuttavia, le esperienze precedenti di programmazione e la conoscenza
+	di altri linguaggi di programmazione ObjectOriented, dovrebbero semplificare
+	la fase di apprendimento.
+\item[Cliente] La maggiore incognita a questo punto del progetto consta proprio
+	nella figura del Cliente, che non abbiamo ancora avuto l'occasione di
+	incontrare. In questo caso il rischio è dovuto all'impossibilità di
+	valutare i seguenti capisaldi:
+%itemize
+\diam Qual è il grado di sofisticazione del cliente, in quale modo si è in
+	grado di comunicare con lo stesso, e con quale tempestività?
+\diam I requisiti sono stati ben compresi dal team di sviluppo e dai clienti?
+\diam Gli utenti finali hanno attese realistiche?
+.%
+.%
+
+\section{Diario}
+%description
+\item[Giovedì 8 Marzo] L'intero gruppo si è riunito nel pomeriggio per discutere 
+	la pianificazione dei giorni successivi. Durante l'incontro si è discusso
+	per:
+%enumerate
+\item l'assegnamento dei ruoli come precedentemente definito;
+\item valutazione delle componenti in gioco nell'analisi dei rischi e sul calcolo
+	dello sforzo;
+\item identificazione dei primi dubbi sulle specifiche da chiarire con il cliente.
+	(verranno dettagliati con dovizia di particolari nella fase successiva 
+	del progetto);
+\item identificazione cenni all'utilizzo dei tool;
+\item organizzazione sulle modalità di contatto per reperire i clienti (a noi 
+	non familiari)
+\item pianificazione del successivo meeting;
+\item prima stesura del documento.
+.%
+Totale ore di lavoro: 3
+\item[Venerdì 9 Marzo] Durante la sera il gruppo si è riunito ``virtualmente'' 
+	su Skype. Durante l'incontro si è discusso per:
+%enumerate
+\item la presentazione della prima stesura del \it{Piano di processo} da parte del Quality Manager:
+	da questa è nata un'accesa discussione riguardo i Value Adjustment Factors
+	ed in seguito si è valutata la miglior formula per il calcolo dei FP;
+\item le ipotetiche richieste del cliente 
+	come qualità, diversificazione e semplicità di input; si prevede un 
+	primo incontro con il cliente per il dì \bf{23 Marzo 2012}
+\item la definizione dei tool, e raffinamento delle scadenze, già precedentemente discusse.
+\item seconda ed ultima stesura del documento;
+.%
+Totale ore di lavoro: 3
+.%

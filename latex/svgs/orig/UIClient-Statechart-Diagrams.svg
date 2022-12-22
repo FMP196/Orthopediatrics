@@ -1,0 +1,3776 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="1198"
+   version="1.1"
+   width="1378"
+   id="svg4009"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="UIClient-Statechart-Diagrams.svg">
+  <metadata
+     id="metadata4945">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4943" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="701"
+     id="namedview4941"
+     showgrid="false"
+     inkscape:zoom="0.55718598"
+     inkscape:cx="689"
+     inkscape:cy="455.42137"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4009" />
+  <rect
+     fill="#00ff"
+     height="74"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="224"
+     x="206"
+     y="494"
+     id="rect4011" />
+  <rect
+     fill="#ffffff"
+     height="74"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="224"
+     x="206"
+     y="494"
+     id="rect4013" />
+  <rect
+     fill="#ffffff"
+     height="72"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="222"
+     x="207"
+     y="495"
+     id="rect4015" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="296"
+     y="507"
+     id="text4017">
+UIStart</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="206"
+     x2="429"
+     y1="517"
+     y2="517"
+     id="line4019" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="208"
+     y="529"
+     id="text4021">
+entry /display welcome message</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="208"
+     y="544"
+     id="text4023">
+do /waiting for user input</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="208"
+     y="559"
+     id="text4025">
+exit /close window</text>
+  <rect
+     fill="#00ff"
+     height="64"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="234"
+     x="206"
+     y="270"
+     id="rect4027" />
+  <rect
+     fill="#ffffff"
+     height="64"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="234"
+     x="206"
+     y="270"
+     id="rect4029" />
+  <rect
+     fill="#ffffff"
+     height="62"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="232"
+     x="207"
+     y="271"
+     id="rect4031" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="278"
+     y="283"
+     id="text4033">
+UIExitMessage</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="206"
+     x2="439"
+     y1="293"
+     y2="293"
+     id="line4035" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="208"
+     y="305"
+     id="text4037">
+entry /waiting for user to confirm exit</text>
+  <rect
+     fill="#00ff"
+     height="64"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="224"
+     x="326"
+     y="134"
+     id="rect4039" />
+  <rect
+     fill="#ffffff"
+     height="64"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="224"
+     x="326"
+     y="134"
+     id="rect4041" />
+  <rect
+     fill="#ffffff"
+     height="62"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="222"
+     x="327"
+     y="135"
+     id="rect4043" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="427"
+     y="147"
+     id="text4045">
+Exit</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="326"
+     x2="549"
+     y1="157"
+     y2="157"
+     id="line4047" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="328"
+     y="169"
+     id="text4049">
+entry /display thanks message</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="328"
+     y="184"
+     id="text4051">
+do /close program</text>
+  <polyline
+     fill="none"
+     points="422,270 422,197"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4053" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="429"
+     x2="422"
+     y1="209"
+     y2="197"
+     id="line4055" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="415"
+     x2="422"
+     y1="209"
+     y2="197"
+     id="line4057" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="425"
+     y="239"
+     id="text4059">
+ [onClick(Yes)] / exit</text>
+  <rect
+     fill="#00ff"
+     height="74"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="232"
+     x="494"
+     y="694"
+     id="rect4061" />
+  <rect
+     fill="#ffffff"
+     height="74"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="232"
+     x="494"
+     y="694"
+     id="rect4063" />
+  <rect
+     fill="#ffffff"
+     height="72"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="230"
+     x="495"
+     y="695"
+     id="rect4065" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="566"
+     y="707"
+     id="text4067">
+UIRegistration</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="494"
+     x2="725"
+     y1="717"
+     y2="717"
+     id="line4069" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="496"
+     y="729"
+     id="text4071">
+entry /display window</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="496"
+     y="744"
+     id="text4073">
+do /waiting for user input</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="496"
+     y="759"
+     id="text4075">
+exit /close window</text>
+  <polyline
+     fill="none"
+     points="429,567 494,694"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4077" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="482"
+     x2="494"
+     y1="686"
+     y2="694"
+     id="line4079" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="494"
+     x2="494"
+     y1="680"
+     y2="694"
+     id="line4081" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="384"
+     y="583"
+     id="text4083">
+ [onClick(Register)]</text>
+  <polygon
+     fill="#ffffff"
+     points="598,518 614,534 598,550 582,534"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4085" />
+  <polygon
+     fill="none"
+     points="598,518 614,534 598,550 582,534"
+     stroke="#000000"
+     stroke-width="1"
+     id="polygon4087" />
+  <polyline
+     fill="none"
+     points="582,534 429,534"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4089" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="441"
+     x2="429"
+     y1="527"
+     y2="534"
+     id="line4091" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="441"
+     x2="429"
+     y1="541"
+     y2="534"
+     id="line4093" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="489"
+     y="529"
+     id="text4095">
+displayStartUI</text>
+  <polyline
+     fill="none"
+     points="598,694 598,550"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4097" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="605"
+     x2="598"
+     y1="562"
+     y2="550"
+     id="line4099" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="591"
+     x2="598"
+     y1="562"
+     y2="550"
+     id="line4101" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="497"
+     y="627"
+     id="text4103">
+ [onClick(Close)]</text>
+  <rect
+     fill="#00ff"
+     height="64"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="232"
+     x="494"
+     y="366"
+     id="rect4105" />
+  <rect
+     fill="#ffffff"
+     height="64"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="232"
+     x="494"
+     y="366"
+     id="rect4107" />
+  <rect
+     fill="#ffffff"
+     height="62"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="230"
+     x="495"
+     y="367"
+     id="rect4109" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="593"
+     y="379"
+     id="text4111">
+Login</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="494"
+     x2="725"
+     y1="389"
+     y2="389"
+     id="line4113" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="496"
+     y="401"
+     id="text4115">
+do /check if user exists</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="496"
+     y="416"
+     id="text4117">
+exit /display operation status</text>
+  <polyline
+     fill="none"
+     points="429,494 494,429"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4119" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="490"
+     x2="494"
+     y1="442"
+     y2="429"
+     id="line4121" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="480"
+     x2="494"
+     y1="432"
+     y2="429"
+     id="line4123" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="448"
+     y="491"
+     id="text4125">
+ [onClick(Login)]</text>
+  <polyline
+     fill="none"
+     points="598,429 598,518"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4127" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="591"
+     x2="598"
+     y1="506"
+     y2="518"
+     id="line4129" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="605"
+     x2="598"
+     y1="506"
+     y2="518"
+     id="line4131" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="608"
+     y="463"
+     id="text4133">
+ [error]</text>
+  <polyline
+     fill="none"
+     points="326,494 326,350 686,350 686,326"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4135" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="693"
+     x2="686"
+     y1="338"
+     y2="326"
+     id="line4137" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="679"
+     x2="686"
+     y1="338"
+     y2="326"
+     id="line4139" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="328"
+     y="364"
+     id="text4141">
+ [onClick(Exit)]</text>
+  <ellipse
+     cx="842"
+     cy="394"
+     fill="#000000"
+     rx="12.0"
+     ry="12.0"
+     stroke="#000000"
+     stroke-width="1"
+     id="ellipse4143" />
+  <ellipse
+     cx="842"
+     cy="394"
+     fill="#ffffff"
+     rx="11.0"
+     ry="11.0"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="ellipse4145" />
+  <polyline
+     fill="none"
+     points="725,394 830,394"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4147" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="818"
+     x2="830"
+     y1="401"
+     y2="394"
+     id="line4149" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="818"
+     x2="830"
+     y1="387"
+     y2="394"
+     id="line4151" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="742"
+     y="388"
+     id="text4153">
+ [success]</text>
+  <rect
+     fill="#00ff"
+     height="89"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="288"
+     x="934"
+     y="262"
+     id="rect4155" />
+  <rect
+     fill="#ffffff"
+     height="89"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="288"
+     x="934"
+     y="262"
+     id="rect4157" />
+  <rect
+     fill="#ffffff"
+     height="87"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="286"
+     x="935"
+     y="263"
+     id="rect4159" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1030"
+     y="275"
+     id="text4161">
+UIAdministrator</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="934"
+     x2="1221"
+     y1="285"
+     y2="285"
+     id="line4163" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="936"
+     y="297"
+     id="text4165">
+entry /display windows</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="936"
+     y="312"
+     id="text4167">
+exit /close window</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="936"
+     y="327"
+     id="text4169">
+onSelect / display reservation info</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="936"
+     y="342"
+     id="text4171">
+onDisplay / display confirmation status</text>
+  <rect
+     fill="#00ff"
+     height="74"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="224"
+     x="1014"
+     y="622"
+     id="rect4173" />
+  <rect
+     fill="#ffffff"
+     height="74"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="224"
+     x="1014"
+     y="622"
+     id="rect4175" />
+  <rect
+     fill="#ffffff"
+     height="72"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="222"
+     x="1015"
+     y="623"
+     id="rect4177" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1097"
+     y="635"
+     id="text4179">
+UIPatient</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1014"
+     x2="1237"
+     y1="645"
+     y2="645"
+     id="line4181" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1016"
+     y="657"
+     id="text4183">
+entry /display window</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1016"
+     y="672"
+     id="text4185">
+do /load user data</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1016"
+     y="687"
+     id="text4187">
+exit /close window</text>
+  <polyline
+     fill="none"
+     points="849,403 1014,622"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4189" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1001"
+     x2="1014"
+     y1="616"
+     y2="622"
+     id="line4191" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1012"
+     x2="1014"
+     y1="608"
+     y2="622"
+     id="line4193" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="928"
+     y="499"
+     id="text4195">
+ [user=Patient]</text>
+  <polygon
+     fill="#ffffff"
+     points="94,190 299,190 309,200 309,240 94,240 94,190"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4197" />
+  <polyline
+     fill="none"
+     points="94,190 299,190 309,200 309,240 94,240 94,190"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4199"
+     style="fill:#e6e6e6" />
+  <polygon
+     fill="#ffffff"
+     points="299,190 309,200 299,200 299,190"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4201" />
+  <polyline
+     fill="none"
+     points="299,190 309,200 299,200 299,190"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4203" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="97"
+     y="205"
+     id="text4205">
+Visualizzazione di un messaggio</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="97"
+     y="220"
+     id="text4207">
+per chiedere conferma della</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="97"
+     y="235"
+     id="text4209">
+chiusura dell'applicazione.</text>
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="237"
+     x2="237"
+     y1="240"
+     y2="245"
+     id="line4211" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="237"
+     x2="237"
+     y1="250"
+     y2="255"
+     id="line4213" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="237"
+     x2="237"
+     y1="260"
+     y2="265"
+     id="line4215" />
+  <polyline
+     fill="none"
+     points="852,388 934,350"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4217" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="926"
+     x2="934"
+     y1="361"
+     y2="350"
+     id="line4219" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="920"
+     x2="934"
+     y1="348"
+     y2="350"
+     id="line4221" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="824"
+     y="354"
+     id="text4223">
+ [user=Admin]</text>
+  <ellipse
+     cx="1106"
+     cy="778"
+     fill="#000000"
+     rx="12.0"
+     ry="12.0"
+     stroke="#000000"
+     stroke-width="1"
+     id="ellipse4225" />
+  <ellipse
+     cx="1106"
+     cy="778"
+     fill="#ffffff"
+     rx="11.0"
+     ry="11.0"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="ellipse4227" />
+  <polyline
+     fill="none"
+     points="1106,695 1106,766"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4229" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1099"
+     x2="1106"
+     y1="754"
+     y2="766"
+     id="line4231" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1113"
+     x2="1106"
+     y1="754"
+     y2="766"
+     id="line4233" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="970"
+     y="738"
+     id="text4235">
+ [onClick(Reservetion)]</text>
+  <rect
+     fill="#00ff"
+     height="74"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="232"
+     x="678"
+     y="878"
+     id="rect4237" />
+  <rect
+     fill="#ffffff"
+     height="74"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="232"
+     x="678"
+     y="878"
+     id="rect4239" />
+  <rect
+     fill="#ffffff"
+     height="72"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="230"
+     x="679"
+     y="879"
+     id="rect4241" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="755"
+     y="891"
+     id="text4243">
+UITutorLogin</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="678"
+     x2="909"
+     y1="901"
+     y2="901"
+     id="line4245" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="680"
+     y="913"
+     id="text4247">
+entry /display window</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="680"
+     y="928"
+     id="text4249">
+do /authenticate tutor</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="680"
+     y="943"
+     id="text4251">
+exit /close window</text>
+  <polyline
+     fill="none"
+     points="1095,783 909,878"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4253" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="916"
+     x2="909"
+     y1="866"
+     y2="878"
+     id="line4255" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="922"
+     x2="909"
+     y1="878"
+     y2="878"
+     id="line4257" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="909"
+     y="784"
+     id="text4259">
+ [userAge &lt; 18] / loginTutor</text>
+  <polygon
+     fill="#ffffff"
+     points="1222,894 1238,910 1222,926 1206,910"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4261" />
+  <polygon
+     fill="none"
+     points="1222,894 1238,910 1222,926 1206,910"
+     stroke="#000000"
+     stroke-width="1"
+     id="polygon4263" />
+  <polyline
+     fill="none"
+     points="1114,786 1222,894"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4265" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1208"
+     x2="1222"
+     y1="890"
+     y2="894"
+     id="line4267" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1218"
+     x2="1222"
+     y1="880"
+     y2="894"
+     id="line4269" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1156"
+     y="822"
+     id="text4271">
+ [userAge &gt;= 18]</text>
+  <polyline
+     fill="none"
+     points="909,910 1206,910"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4273" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1194"
+     x2="1206"
+     y1="917"
+     y2="910"
+     id="line4275" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1194"
+     x2="1206"
+     y1="903"
+     y2="910"
+     id="line4277" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="973"
+     y="905"
+     id="text4279">
+ [success]</text>
+  <rect
+     fill="#00ff"
+     height="74"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="232"
+     x="1070"
+     y="1006"
+     id="rect4281" />
+  <rect
+     fill="#ffffff"
+     height="74"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="232"
+     x="1070"
+     y="1006"
+     id="rect4283" />
+  <rect
+     fill="#ffffff"
+     height="72"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="230"
+     x="1071"
+     y="1007"
+     id="rect4285" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1143"
+     y="1019"
+     id="text4287">
+UIReservation</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1070"
+     x2="1301"
+     y1="1029"
+     y2="1029"
+     id="line4289" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1072"
+     y="1041"
+     id="text4291">
+entry /display window</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1072"
+     y="1056"
+     id="text4293">
+do /waiting for user input</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1072"
+     y="1071"
+     id="text4295">
+exit /close window</text>
+  <polyline
+     fill="none"
+     points="1222,926 1222,1006"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4297" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1215"
+     x2="1222"
+     y1="994"
+     y2="1006"
+     id="line4299" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1229"
+     x2="1222"
+     y1="994"
+     y2="1006"
+     id="line4301" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1091"
+     y="978"
+     id="text4303">
+displayUIReservation</text>
+  <ellipse
+     cx="102"
+     cy="534"
+     fill="#000000"
+     rx="8.0"
+     ry="8.0"
+     stroke="#000000"
+     stroke-width="1"
+     id="ellipse4305" />
+  <polyline
+     fill="none"
+     points="110,534 206,534"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4307" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="194"
+     x2="206"
+     y1="541"
+     y2="534"
+     id="line4309" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="194"
+     x2="206"
+     y1="527"
+     y2="534"
+     id="line4311" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="142"
+     y="529"
+     id="text4313">
+entry</text>
+  <rect
+     fill="#00ff"
+     height="88"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="232"
+     x="614"
+     y="1014"
+     id="rect4315" />
+  <rect
+     fill="#ffffff"
+     height="88"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="232"
+     x="614"
+     y="1014"
+     id="rect4317" />
+  <rect
+     fill="#ffffff"
+     height="86"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="230"
+     x="615"
+     y="1015"
+     id="rect4319" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="684"
+     y="1027"
+     id="text4321">
+Send Message</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="614"
+     x2="845"
+     y1="1037"
+     y2="1037"
+     id="line4323" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="616"
+     y="1049"
+     id="text4325">
+do /send request msg to admin</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="616"
+     y="1064"
+     id="text4327">
+exit /display operation status</text>
+  <rect
+     fill="#00ff"
+     height="104"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="200"
+     x="702"
+     y="486"
+     id="rect4329" />
+  <rect
+     fill="#ffffff"
+     height="104"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="200"
+     x="702"
+     y="486"
+     id="rect4331" />
+  <rect
+     fill="#ffffff"
+     height="102"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="198"
+     x="703"
+     y="487"
+     id="rect4333" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="776"
+     y="499"
+     id="text4335">
+Register</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="702"
+     x2="901"
+     y1="509"
+     y2="509"
+     id="line4337" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="704"
+     y="521"
+     id="text4339">
+do /register new user</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="704"
+     y="536"
+     id="text4341">
+exit /display operation status</text>
+  <polyline
+     fill="none"
+     points="702,534 614,534"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4343" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="626"
+     x2="614"
+     y1="527"
+     y2="534"
+     id="line4345" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="626"
+     x2="614"
+     y1="541"
+     y2="534"
+     id="line4347" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="626"
+     y="529"
+     id="text4349">
+ [success]</text>
+  <polyline
+     fill="none"
+     points="702,558 630,558 630,694"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4351" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="623"
+     x2="630"
+     y1="682"
+     y2="694"
+     id="line4353" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="637"
+     x2="630"
+     y1="682"
+     y2="694"
+     id="line4355" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="638"
+     y="579"
+     id="text4357">
+ [error]</text>
+  <polyline
+     fill="none"
+     points="725,726 790,726 790,589"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4359" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="797"
+     x2="790"
+     y1="601"
+     y2="589"
+     id="line4361" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="783"
+     x2="790"
+     y1="601"
+     y2="589"
+     id="line4363" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="666"
+     y="643"
+     id="text4365">
+ [onClick(Register)] / register</text>
+  <polyline
+     fill="none"
+     points="845,1038 1070,1038"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4367" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1058"
+     x2="1070"
+     y1="1045"
+     y2="1038"
+     id="line4369" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1058"
+     x2="1070"
+     y1="1031"
+     y2="1038"
+     id="line4371" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="936"
+     y="1032"
+     id="text4373">
+ [error]</text>
+  <polyline
+     fill="none"
+     points="845,1094 1334,1094 1334,662 1237,662"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4375" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1249"
+     x2="1237"
+     y1="655"
+     y2="662"
+     id="line4377" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1249"
+     x2="1237"
+     y1="669"
+     y2="662"
+     id="line4379" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1266"
+     y="1109"
+     id="text4381">
+ [success]</text>
+  <polyline
+     fill="none"
+     points="1070,1054 845,1054"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4383" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="857"
+     x2="845"
+     y1="1047"
+     y2="1054"
+     id="line4385" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="857"
+     x2="845"
+     y1="1061"
+     y2="1054"
+     id="line4387" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="890"
+     y="1069"
+     id="text4389">
+ [onClick(Reservation)]</text>
+  <rect
+     fill="#00ff"
+     height="74"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="232"
+     x="958"
+     y="118"
+     id="rect4391" />
+  <rect
+     fill="#ffffff"
+     height="74"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="232"
+     x="958"
+     y="118"
+     id="rect4393" />
+  <rect
+     fill="#ffffff"
+     height="72"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="230"
+     x="959"
+     y="119"
+     id="rect4395" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1040"
+     y="131"
+     id="text4397">
+UICalendar</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="958"
+     x2="1189"
+     y1="141"
+     y2="141"
+     id="line4399" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="960"
+     y="153"
+     id="text4401">
+entry /display calendar</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="960"
+     y="168"
+     id="text4403">
+do /load reservation info</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="960"
+     y="183"
+     id="text4405">
+exit /close window</text>
+  <polyline
+     fill="none"
+     points="1078,262 1078,191"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4407" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1085"
+     x2="1078"
+     y1="203"
+     y2="191"
+     id="line4409" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1071"
+     x2="1078"
+     y1="203"
+     y2="191"
+     id="line4411" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1081"
+     y="233"
+     id="text4413">
+ [onClick(Calendar)]</text>
+  <rect
+     fill="#00ff"
+     height="128"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="208"
+     x="582"
+     y="118"
+     id="rect4415" />
+  <rect
+     fill="#ffffff"
+     height="128"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="208"
+     x="582"
+     y="118"
+     id="rect4417" />
+  <rect
+     fill="#ffffff"
+     height="126"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="206"
+     x="583"
+     y="119"
+     id="rect4419" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="623"
+     y="131"
+     id="text4421">
+Confirm Reservation</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="582"
+     x2="789"
+     y1="141"
+     y2="141"
+     id="line4423" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="584"
+     y="153"
+     id="text4425">
+do /send confirm message</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="584"
+     y="168"
+     id="text4427">
+exit /remove pending request</text>
+  <polyline
+     fill="none"
+     points="789,230 1046,230 1046,262"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4429" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1039"
+     x2="1046"
+     y1="250"
+     y2="262"
+     id="line4431" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1053"
+     x2="1046"
+     y1="250"
+     y2="262"
+     id="line4433" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="930"
+     y="225"
+     id="text4435">
+ [success]</text>
+  <polyline
+     fill="none"
+     points="789,182 958,182"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4437" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="946"
+     x2="958"
+     y1="189"
+     y2="182"
+     id="line4439" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="946"
+     x2="958"
+     y1="175"
+     y2="182"
+     id="line4441" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="851"
+     y="177"
+     id="text4443">
+ [error]</text>
+  <polygon
+     fill="#ffffff"
+     points="686,294 702,310 686,326 670,310"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4445" />
+  <polygon
+     fill="none"
+     points="686,294 702,310 686,326 670,310"
+     stroke="#000000"
+     stroke-width="1"
+     id="polygon4447" />
+  <polyline
+     fill="none"
+     points="934,310 702,310"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4449" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="714"
+     x2="702"
+     y1="303"
+     y2="310"
+     id="line4451" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="714"
+     x2="702"
+     y1="317"
+     y2="310"
+     id="line4453" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="773"
+     y="305"
+     id="text4455">
+ [onClick(Exit)]</text>
+  <polyline
+     fill="none"
+     points="670,310 439,310"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4457" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="451"
+     x2="439"
+     y1="303"
+     y2="310"
+     id="line4459" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="451"
+     x2="439"
+     y1="317"
+     y2="310"
+     id="line4461" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="506"
+     y="305"
+     id="text4463">
+displayMessage</text>
+  <polyline
+     fill="none"
+     points="310,333 310,494"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4465" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="303"
+     x2="310"
+     y1="482"
+     y2="494"
+     id="line4467" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="317"
+     x2="310"
+     y1="482"
+     y2="494"
+     id="line4469" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="222"
+     y="459"
+     id="text4471">
+ [onClick(No)]</text>
+  <polyline
+     fill="none"
+     points="439,286 934,286"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4473" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="922"
+     x2="934"
+     y1="293"
+     y2="286"
+     id="line4475" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="922"
+     x2="934"
+     y1="279"
+     y2="286"
+     id="line4477" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="644"
+     y="281"
+     id="text4479">
+ [onClick(No)]</text>
+  <polygon
+     fill="#ffffff"
+     points="14,1022 469,1022 479,1032 479,1173 14,1173 14,1022"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4481" />
+  <polyline
+     fill="none"
+     points="14,1022 469,1022 479,1032 479,1173 14,1173 14,1022"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4483"
+     style="fill:#e6e6e6" />
+  <polygon
+     fill="#ffffff"
+     points="469,1022 479,1032 469,1032 469,1022"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4485" />
+  <polyline
+     fill="none"
+     points="469,1022 479,1032 469,1032 469,1022"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4487" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="17"
+     y="1037"
+     id="text4489">
+Ulteriori note:</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="17"
+     y="1052"
+     id="text4491">
+- l'evento onClick e' applicata ad un bottone, e viene associato alla</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="17"
+     y="1067"
+     id="text4493">
+  condizione di pressione di un bottone: onClick(button) = {true | false}</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="17"
+     y="1082"
+     id="text4495">
+- uno stato il cui prefisso inizia con &quot;UI&quot; ingloba funzionalita' inerenti</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="17"
+     y="1097"
+     id="text4497">
+  all'interfaccia grafica </text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="17"
+     y="1112"
+     id="text4499">
+- [success] e [error] indicano rispettivamente l'esito positivo o negativo</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="17"
+     y="1127"
+     id="text4501">
+  di un operazione</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="17"
+     y="1142"
+     id="text4503">
+- gli stati di &quot;Login&quot;, &quot;Register&quot;, &quot;Send Message&quot; e &quot;Confirm Reservation&quot;</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="17"
+     y="1157"
+     id="text4505">
+  rappresentano degli stati compositi (da estendere in futuro)</text>
+  <polyline
+     fill="none"
+     points="886,878 886,678 1014,678"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4507" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1002"
+     x2="1014"
+     y1="685"
+     y2="678"
+     id="line4509" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1002"
+     x2="1014"
+     y1="671"
+     y2="678"
+     id="line4511" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="889"
+     y="700"
+     id="text4513">
+ [error]</text>
+  <polygon
+     fill="#ffffff"
+     points="118,78 301,78 311,88 311,117 118,117 118,78"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4515" />
+  <polyline
+     fill="none"
+     points="118,78 301,78 311,88 311,117 118,117 118,78"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4517"
+     style="fill:#e6e6e6" />
+  <polygon
+     fill="#ffffff"
+     points="301,78 311,88 301,88 301,78"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4519" />
+  <polyline
+     fill="none"
+     points="301,78 311,88 301,88 301,78"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4521" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="121"
+     y="93"
+     id="text4523">
+La chiusura dell'applicazione</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="121"
+     y="108"
+     id="text4525">
+avviene in questo stato.</text>
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="311"
+     x2="314"
+     y1="117"
+     y2="120"
+     id="line4527" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="317"
+     x2="321"
+     y1="124"
+     y2="128"
+     id="line4529" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="324"
+     x2="326"
+     y1="132"
+     y2="134"
+     id="line4531" />
+  <polygon
+     fill="#ffffff"
+     points="62,598 412,598 422,608 422,678 62,678 62,598"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4533" />
+  <polyline
+     points="62,598 412,598 422,608 422,678 62,678 62,598"
+     id="polyline4535"
+     stroke-width="1"
+     stroke="#000000"
+     fill="none"
+     style="fill:#e6e6e6" />
+  <polygon
+     fill="#ffffff"
+     points="412,598 422,608 412,608 412,598"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4537" />
+  <polyline
+     fill="none"
+     points="412,598 422,608 412,608 412,598"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4539" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="65"
+     y="613"
+     id="text4541">
+Rappresenta l'interfaccia di ingresso dell'applicazione.</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="65"
+     y="628"
+     id="text4543">
+L'utente puo' decidere se effettuare una registrazione,</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="65"
+     y="643"
+     id="text4545">
+oppure in caso fosse gia' registrato puo passare</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="65"
+     y="658"
+     id="text4547">
+direttamente alla fase di autenticazione, scegliendo se</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="65"
+     y="673"
+     id="text4549">
+questo e' un Paziente oppure un Amministratore.</text>
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="270"
+     x2="270"
+     y1="598"
+     y2="593"
+     id="line4551" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="270"
+     x2="270"
+     y1="588"
+     y2="583"
+     id="line4553" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="270"
+     x2="270"
+     y1="578"
+     y2="573"
+     id="line4555" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="270"
+     x2="270"
+     y1="568"
+     y2="567"
+     id="line4557" />
+  <polygon
+     fill="#ffffff"
+     points="86,374 266,374 276,384 276,409 86,409 86,374"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4559" />
+  <polyline
+     fill="none"
+     points="86,374 266,374 276,384 276,409 86,409 86,374"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4561"
+     style="fill:#e6e6e6" />
+  <polygon
+     fill="#ffffff"
+     points="266,374 276,384 266,384 266,374"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4563" />
+  <polyline
+     fill="none"
+     points="266,374 276,384 266,384 266,374"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4565" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="89"
+     y="389"
+     id="text4567">
+Si procede con la verifica</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="89"
+     y="404"
+     id="text4569">
+delle credenziali dell'utente.</text>
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="276"
+     x2="281"
+     y1="398"
+     y2="398"
+     id="line4571" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="286"
+     x2="291"
+     y1="398"
+     y2="398"
+     id="line4573" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="296"
+     x2="301"
+     y1="398"
+     y2="398"
+     id="line4575" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="306"
+     x2="311"
+     y1="398"
+     y2="398"
+     id="line4577" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="316"
+     x2="321"
+     y1="398"
+     y2="398"
+     id="line4579" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="326"
+     x2="331"
+     y1="398"
+     y2="398"
+     id="line4581" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="336"
+     x2="341"
+     y1="398"
+     y2="398"
+     id="line4583" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="346"
+     x2="351"
+     y1="398"
+     y2="398"
+     id="line4585" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="356"
+     x2="361"
+     y1="398"
+     y2="398"
+     id="line4587" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="366"
+     x2="371"
+     y1="398"
+     y2="398"
+     id="line4589" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="376"
+     x2="381"
+     y1="398"
+     y2="398"
+     id="line4591" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="386"
+     x2="391"
+     y1="398"
+     y2="398"
+     id="line4593" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="396"
+     x2="401"
+     y1="398"
+     y2="398"
+     id="line4595" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="406"
+     x2="411"
+     y1="398"
+     y2="398"
+     id="line4597" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="416"
+     x2="421"
+     y1="398"
+     y2="398"
+     id="line4599" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="426"
+     x2="431"
+     y1="398"
+     y2="398"
+     id="line4601" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="436"
+     x2="441"
+     y1="398"
+     y2="398"
+     id="line4603" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="446"
+     x2="451"
+     y1="398"
+     y2="398"
+     id="line4605" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="456"
+     x2="461"
+     y1="398"
+     y2="398"
+     id="line4607" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="466"
+     x2="471"
+     y1="398"
+     y2="398"
+     id="line4609" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="476"
+     x2="481"
+     y1="398"
+     y2="398"
+     id="line4611" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="486"
+     x2="491"
+     y1="398"
+     y2="398"
+     id="line4613" />
+  <polygon
+     fill="#ffffff"
+     points="886,382 1100,382 1110,392 1110,432 886,432 886,382"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4615" />
+  <polyline
+     fill="none"
+     points="886,382 1100,382 1110,392 1110,432 886,432 886,382"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4617"
+     style="fill:#e6e6e6" />
+  <polygon
+     fill="#ffffff"
+     points="1100,382 1110,392 1100,392 1100,382"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4619" />
+  <polyline
+     fill="none"
+     points="1100,382 1110,392 1100,392 1100,382"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4621" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="889"
+     y="397"
+     id="text4623">
+A seconda del tipo di utente che</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="889"
+     y="412"
+     id="text4625">
+accede al sistema, viene stabilito</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="889"
+     y="427"
+     id="text4627">
+l'interfaccia da visualizzare</text>
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="382"
+     y2="377"
+     id="line4629" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="372"
+     y2="367"
+     id="line4631" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="362"
+     y2="357"
+     id="line4633" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="352"
+     y2="350"
+     id="line4635" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="432"
+     y2="437"
+     id="line4637" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="442"
+     y2="447"
+     id="line4639" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="452"
+     y2="457"
+     id="line4641" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="462"
+     y2="467"
+     id="line4643" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="472"
+     y2="477"
+     id="line4645" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="482"
+     y2="487"
+     id="line4647" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="492"
+     y2="497"
+     id="line4649" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="502"
+     y2="507"
+     id="line4651" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="512"
+     y2="517"
+     id="line4653" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="522"
+     y2="527"
+     id="line4655" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="532"
+     y2="537"
+     id="line4657" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="542"
+     y2="547"
+     id="line4659" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="552"
+     y2="557"
+     id="line4661" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="562"
+     y2="567"
+     id="line4663" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="572"
+     y2="577"
+     id="line4665" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="582"
+     y2="587"
+     id="line4667" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="592"
+     y2="597"
+     id="line4669" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="602"
+     y2="607"
+     id="line4671" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1038"
+     x2="1038"
+     y1="612"
+     y2="617"
+     id="line4673" />
+  <polygon
+     fill="#ffffff"
+     points="318,702 453,702 463,712 463,760 318,760 318,702"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4675" />
+  <polyline
+     fill="none"
+     points="318,702 453,702 463,712 463,760 318,760 318,702"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4677"
+     style="fill:#e6e6e6" />
+  <polygon
+     fill="#ffffff"
+     points="453,702 463,712 453,712 453,702"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4679" />
+  <polyline
+     fill="none"
+     points="453,702 463,712 453,712 453,702"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4681" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="321"
+     y="717"
+     id="text4683">
+Il paziente inserisce i</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="321"
+     y="732"
+     id="text4685">
+dati personali.</text>
+  <polygon
+     fill="#ffffff"
+     points="430,910 646,910 656,920 656,990 430,990 430,910"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4687" />
+  <polyline
+     fill="none"
+     points="430,910 646,910 656,920 656,990 430,990 430,910"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4689"
+     style="fill:#e6e6e6" />
+  <polygon
+     fill="#ffffff"
+     points="646,910 656,920 646,920 646,910"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4691" />
+  <polyline
+     fill="none"
+     points="646,910 656,920 646,920 646,910"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4693" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="433"
+     y="925"
+     id="text4695">
+Nel caso di &quot;utenti minorenni&quot; e'</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="433"
+     y="940"
+     id="text4697">
+necessario assicurarsi che questi</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="433"
+     y="955"
+     id="text4699">
+siano in presenza di un tutore, il</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="433"
+     y="970"
+     id="text4701">
+quale a sua volta necessita di un</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="433"
+     y="985"
+     id="text4703">
+account presso il sistema.</text>
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="463"
+     x2="468"
+     y1="734"
+     y2="734"
+     id="line4705" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="473"
+     x2="478"
+     y1="734"
+     y2="734"
+     id="line4707" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="483"
+     x2="488"
+     y1="734"
+     y2="734"
+     id="line4709" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="493"
+     x2="494"
+     y1="734"
+     y2="734"
+     id="line4711" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="656"
+     x2="661"
+     y1="934"
+     y2="934"
+     id="line4713" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="666"
+     x2="671"
+     y1="934"
+     y2="934"
+     id="line4715" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="676"
+     x2="678"
+     y1="934"
+     y2="934"
+     id="line4717" />
+  <polyline
+     fill="none"
+     points="958,155 789,155"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4719" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="801"
+     x2="789"
+     y1="148"
+     y2="155"
+     id="line4721" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="801"
+     x2="789"
+     y1="162"
+     y2="155"
+     id="line4723" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="839"
+     y="150"
+     id="text4725">
+select date</text>
+  <polygon
+     fill="#ffffff"
+     points="542,1118 788,1118 798,1128 798,1183 542,1183 542,1118"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4727" />
+  <polyline
+     fill="none"
+     points="542,1118 788,1118 798,1128 798,1183 542,1183 542,1118"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4729"
+     style="fill:#e6e6e6" />
+  <polygon
+     fill="#ffffff"
+     points="788,1118 798,1128 788,1128 788,1118"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4731" />
+  <polyline
+     fill="none"
+     points="788,1118 798,1128 788,1128 788,1118"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4733" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="545"
+     y="1133"
+     id="text4735">
+Inoltro di un messaggio di richiesta di</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="545"
+     y="1148"
+     id="text4737">
+prenotazione da parte del sistema per</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="545"
+     y="1163"
+     id="text4739">
+indicare la volonta' di prenotazione di</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="545"
+     y="1178"
+     id="text4741">
+una visita da parte di un paziente.</text>
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="654"
+     x2="654"
+     y1="1118"
+     y2="1113"
+     id="line4743" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="654"
+     x2="654"
+     y1="1108"
+     y2="1103"
+     id="line4745" />
+  <polygon
+     fill="#ffffff"
+     points="1062,542 1253,542 1263,552 1263,592 1062,592 1062,542"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4747" />
+  <polyline
+     fill="none"
+     points="1062,542 1253,542 1263,552 1263,592 1062,592 1062,542"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4749"
+     style="fill:#e6e6e6" />
+  <polygon
+     fill="#ffffff"
+     points="1253,542 1263,552 1253,552 1253,542"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4751" />
+  <polyline
+     fill="none"
+     points="1253,542 1263,552 1253,552 1253,542"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4753" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1065"
+     y="557"
+     id="text4755">
+Viene contattato il server per</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1065"
+     y="572"
+     id="text4757">
+effettuare la registrazione del</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1065"
+     y="587"
+     id="text4759">
+paziente.</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1062"
+     x2="1057"
+     y1="566"
+     y2="566"
+     id="line4761" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1052"
+     x2="1047"
+     y1="566"
+     y2="566"
+     id="line4763" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1042"
+     x2="1037"
+     y1="566"
+     y2="566"
+     id="line4765" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1032"
+     x2="1027"
+     y1="566"
+     y2="566"
+     id="line4767" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1022"
+     x2="1017"
+     y1="566"
+     y2="566"
+     id="line4769" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1012"
+     x2="1007"
+     y1="566"
+     y2="566"
+     id="line4771" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1002"
+     x2="997"
+     y1="566"
+     y2="566"
+     id="line4773" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="992"
+     x2="987"
+     y1="566"
+     y2="566"
+     id="line4775" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="982"
+     x2="977"
+     y1="566"
+     y2="566"
+     id="line4777" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="972"
+     x2="967"
+     y1="566"
+     y2="566"
+     id="line4779" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="962"
+     x2="957"
+     y1="566"
+     y2="566"
+     id="line4781" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="952"
+     x2="947"
+     y1="566"
+     y2="566"
+     id="line4783" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="942"
+     x2="937"
+     y1="566"
+     y2="566"
+     id="line4785" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="932"
+     x2="927"
+     y1="566"
+     y2="566"
+     id="line4787" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="922"
+     x2="917"
+     y1="566"
+     y2="566"
+     id="line4789" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="912"
+     x2="907"
+     y1="566"
+     y2="566"
+     id="line4791" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="902"
+     x2="901"
+     y1="566"
+     y2="566"
+     id="line4793" />
+  <rect
+     fill="#00ff"
+     height="64"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="232"
+     x="958"
+     y="30"
+     id="rect4795" />
+  <rect
+     fill="#ffffff"
+     height="64"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="232"
+     x="958"
+     y="30"
+     id="rect4797" />
+  <rect
+     fill="#ffffff"
+     height="62"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="230"
+     x="959"
+     y="31"
+     id="rect4799" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1028"
+     y="43"
+     id="text4801">
+Send Message</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="958"
+     x2="1189"
+     y1="53"
+     y2="53"
+     id="line4803" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="960"
+     y="65"
+     id="text4805">
+do /send confirm msg to patient</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="960"
+     y="80"
+     id="text4807">
+exit /display operation status</text>
+  <polyline
+     fill="none"
+     points="1221,294 1262,294 1262,78 1189,78"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4809" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1201"
+     x2="1189"
+     y1="71"
+     y2="78"
+     id="line4811" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1201"
+     x2="1189"
+     y1="85"
+     y2="78"
+     id="line4813" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1182"
+     y="258"
+     id="text4815">
+ [onClick(Confirm)]</text>
+  <polyline
+     fill="none"
+     points="1237,646 1334,646 1334,14 62,14 62,302 206,302"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4817" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="194"
+     x2="206"
+     y1="309"
+     y2="302"
+     id="line4819" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="194"
+     x2="206"
+     y1="295"
+     y2="302"
+     id="line4821" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1235"
+     y="637"
+     id="text4823">
+ [onClick(Exit)]</text>
+  <polygon
+     fill="#ffffff"
+     points="606,30 876,30 886,40 886,88 606,88 606,30"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4825" />
+  <polyline
+     fill="none"
+     points="606,30 876,30 886,40 886,88 606,88 606,30"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4827"
+     style="fill:#e6e6e6" />
+  <polygon
+     fill="#ffffff"
+     points="876,30 886,40 876,40 876,30"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4829" />
+  <polyline
+     fill="none"
+     points="876,30 886,40 876,40 876,30"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4831" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="609"
+     y="45"
+     id="text4833">
+Visualizzazione del calendario settimanale.</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="609"
+     y="60"
+     id="text4835">
+In base ai giorni disponibili l'utente puo'</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="609"
+     y="75"
+     id="text4837">
+scegliere il giorno base.</text>
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="886"
+     x2="890"
+     y1="88"
+     y2="89"
+     id="line4839" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="895"
+     x2="899"
+     y1="91"
+     y2="93"
+     id="line4841" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="904"
+     x2="909"
+     y1="95"
+     y2="97"
+     id="line4843" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="913"
+     x2="918"
+     y1="99"
+     y2="101"
+     id="line4845" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="922"
+     x2="927"
+     y1="103"
+     y2="105"
+     id="line4847" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="932"
+     x2="936"
+     y1="107"
+     y2="109"
+     id="line4849" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="941"
+     x2="946"
+     y1="111"
+     y2="113"
+     id="line4851" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="950"
+     x2="955"
+     y1="114"
+     y2="116"
+     id="line4853" />
+  <polygon
+     fill="#ffffff"
+     points="1134,374 1316,374 1326,384 1326,529 1134,529 1134,374"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4855" />
+  <polyline
+     fill="none"
+     points="1134,374 1316,374 1326,384 1326,529 1134,529 1134,374"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4857"
+     style="fill:#e6e6e6" />
+  <polygon
+     fill="#ffffff"
+     points="1316,374 1326,384 1316,384 1316,374"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4859" />
+  <polyline
+     fill="none"
+     points="1316,374 1326,384 1316,384 1316,374"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4861" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1137"
+     y="389"
+     id="text4863">
+L'amministratore visualizza</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1137"
+     y="404"
+     id="text4865">
+tutte le richieste di preno-</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1137"
+     y="419"
+     id="text4867">
+tazione in attesa di una</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1137"
+     y="434"
+     id="text4869">
+conferma. Ogni singola</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1137"
+     y="449"
+     id="text4871">
+prenotazione se seleziona-</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1137"
+     y="464"
+     id="text4873">
+ta visualizza le informazioni</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1137"
+     y="479"
+     id="text4875">
+necessarie all'amministra-</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1137"
+     y="494"
+     id="text4877">
+tore per decidere la priorita'</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1137"
+     y="509"
+     id="text4879">
+e in base a questa la data</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1137"
+     y="524"
+     id="text4881">
+della visita.</text>
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1190"
+     x2="1190"
+     y1="374"
+     y2="369"
+     id="line4883" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1190"
+     x2="1190"
+     y1="364"
+     y2="359"
+     id="line4885" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1190"
+     x2="1190"
+     y1="354"
+     y2="350"
+     id="line4887" />
+  <polyline
+     fill="none"
+     points="1189,54 1302,54 1302,318 1221,318"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4889" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1233"
+     x2="1221"
+     y1="311"
+     y2="318"
+     id="line4891" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="1233"
+     x2="1221"
+     y1="325"
+     y2="318"
+     id="line4893" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="1187"
+     y="48"
+     id="text4895">
+ [success OR error] / display</text>
+  <rect
+     fill="#00ff"
+     height="72"
+     rx="16"
+     ry="16"
+     stroke="#00ff"
+     stroke-width="1"
+     width="232"
+     x="558"
+     y="790"
+     id="rect4897" />
+  <rect
+     fill="#ffffff"
+     height="72"
+     rx="16"
+     ry="16"
+     stroke="#000000"
+     stroke-width="1"
+     width="232"
+     x="558"
+     y="790"
+     id="rect4899" />
+  <rect
+     fill="#ffffff"
+     height="70"
+     rx="16"
+     ry="16"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="230"
+     x="559"
+     y="791"
+     id="rect4901" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="633"
+     y="803"
+     id="text4903">
+UIChronology</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="558"
+     x2="789"
+     y1="813"
+     y2="813"
+     id="line4905" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="560"
+     y="825"
+     id="text4907">
+entry /request chronology</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="560"
+     y="840"
+     id="text4909">
+do /display chronology</text>
+  <polyline
+     fill="none"
+     points="1014,654 854,654 854,822 789,822"
+     stroke="#333399"
+     stroke-width="1"
+     id="polyline4911" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="801"
+     x2="789"
+     y1="815"
+     y2="822"
+     id="line4913" />
+  <line
+     fill="#333399"
+     stroke="#333399"
+     stroke-width="1"
+     x1="801"
+     x2="789"
+     y1="829"
+     y2="822"
+     id="line4915" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="876"
+     y="649"
+     id="text4917">
+ [onClick(Chronology)]</text>
+  <polygon
+     fill="#ffffff"
+     points="286,814 509,814 519,824 519,872 286,872 286,814"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4919"
+     style="fill:#e6e6e6" />
+  <polyline
+     fill="none"
+     points="286,814 509,814 519,824 519,872 286,872 286,814"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4921" />
+  <polygon
+     fill="#ffffff"
+     points="509,814 519,824 509,824 509,814"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4923" />
+  <polyline
+     fill="none"
+     points="509,814 519,824 509,824 509,814"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4925" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="289"
+     y="829"
+     id="text4927">
+Visualizzazione della cronologia di</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="289"
+     y="844"
+     id="text4929">
+tutte le prenotazioni, ed i referti</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="289"
+     y="859"
+     id="text4931">
+medici associati, di un paziente.</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="520"
+     x2="525"
+     y1="832"
+     y2="832"
+     id="line4933" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="530"
+     x2="535"
+     y1="832"
+     y2="832"
+     id="line4935" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="540"
+     x2="545"
+     y1="832"
+     y2="832"
+     id="line4937" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="550"
+     x2="555"
+     y1="832"
+     y2="832"
+     id="line4939" />
+</svg>

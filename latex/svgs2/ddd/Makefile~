@@ -1,0 +1,8 @@
+SRC=$(wildcard *.jpg)
+DST=$(SRC:.jpg=.png)
+
+%.png:		%.jpg
+		imagemagick $< $@
+				
+dia2pdf:	$(DST)
+

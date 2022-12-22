@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="380"
+   version="1.1"
+   width="514"
+   id="svg4245"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="admin_Prenotazionepaziente_urgente.svg">
+  <metadata
+     id="metadata4633">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4631" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="691"
+     id="namedview4629"
+     showgrid="false"
+     inkscape:zoom="1.24"
+     inkscape:cx="213.87012"
+     inkscape:cy="108.19096"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3614" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="63"
+     y2="68"
+     id="line4247" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="73"
+     y2="78"
+     id="line4249" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="83"
+     y2="88"
+     id="line4251" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="93"
+     y2="98"
+     id="line4253" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="103"
+     y2="108"
+     id="line4255" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="113"
+     y2="118"
+     id="line4257" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="123"
+     y2="128"
+     id="line4259" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="133"
+     y2="138"
+     id="line4261" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="143"
+     y2="148"
+     id="line4263" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="153"
+     y2="158"
+     id="line4265" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="163"
+     y2="168"
+     id="line4267" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="173"
+     y2="178"
+     id="line4269" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="183"
+     y2="188"
+     id="line4271" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="193"
+     y2="198"
+     id="line4273" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="203"
+     y2="208"
+     id="line4275" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="213"
+     y2="218"
+     id="line4277" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="223"
+     y2="228"
+     id="line4279" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="233"
+     y2="238"
+     id="line4281" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="243"
+     y2="248"
+     id="line4283" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="253"
+     y2="258"
+     id="line4285" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="263"
+     y2="268"
+     id="line4287" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="273"
+     y2="278"
+     id="line4289" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="283"
+     y2="288"
+     id="line4291" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="293"
+     y2="298"
+     id="line4293" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="303"
+     y2="308"
+     id="line4295" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="313"
+     y2="318"
+     id="line4297" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="323"
+     y2="328"
+     id="line4299" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="333"
+     y2="338"
+     id="line4301" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="343"
+     y2="348"
+     id="line4303" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="353"
+     y2="358"
+     id="line4305" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="98"
+     x2="98"
+     y1="363"
+     y2="365"
+     id="line4307" />
+  <rect
+     height="302"
+     width="20"
+     x="88"
+     y="63"
+     id="rect4309"
+     stroke-width="1"
+     stroke="#ffffff"
+     fill="#ffffff" />
+  <rect
+     height="302"
+     width="20"
+     x="88"
+     y="63"
+     id="rect4311"
+     stroke-width="1"
+     stroke="#000000"
+     fill="none" />
+  <rect
+     fill="#ffffff"
+     height="50"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="168"
+     x="14"
+     y="14"
+     id="rect4313" />
+  <rect
+     fill="none"
+     height="50"
+     stroke="#000000"
+     stroke-width="1"
+     width="168"
+     x="14"
+     y="14"
+     id="rect4315" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="48"
+     y="46"
+     id="text4317">
+/Amministratore</text>
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="61"
+     y="27"
+     id="text4319">
+&lt;&lt;actor&gt;&gt;</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="63"
+     y2="68"
+     id="line4321" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="73"
+     y2="78"
+     id="line4323" />
+  <line
+     x1="425"
+     x2="425"
+     y1="83"
+     y2="88"
+     id="line4325"
+     stroke-width="1"
+     stroke="#000000"
+     fill="#000000" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="93"
+     y2="98"
+     id="line4327" />
+  <line
+     x1="425"
+     x2="425"
+     y1="103"
+     y2="108"
+     id="line4329"
+     stroke-width="1"
+     stroke="#000000"
+     fill="#000000" />
+  <line
+     x1="425"
+     x2="425"
+     y1="113"
+     y2="118"
+     id="line4331"
+     stroke-width="1"
+     stroke="#000000"
+     fill="#000000" />
+  <line
+     x1="425"
+     x2="425"
+     y1="123"
+     y2="128"
+     id="line4333"
+     stroke-width="1"
+     stroke="#000000"
+     fill="#000000" />
+  <line
+     x1="425"
+     x2="425"
+     y1="133"
+     y2="138"
+     id="line4335"
+     stroke-width="1"
+     stroke="#000000"
+     fill="#000000" />
+  <line
+     x1="425"
+     x2="425"
+     y1="143"
+     y2="148"
+     id="line4337"
+     stroke-width="1"
+     stroke="#000000"
+     fill="#000000" />
+  <line
+     x1="425"
+     x2="425"
+     y1="153"
+     y2="158"
+     id="line4339"
+     stroke-width="1"
+     stroke="#000000"
+     fill="#000000" />
+  <line
+     x1="425"
+     x2="425"
+     y1="165"
+     y2="170"
+     id="line4341"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="425"
+     x2="425"
+     y1="177"
+     y2="182"
+     id="line4343"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="425"
+     x2="425"
+     y1="189"
+     y2="194"
+     id="line4345"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="425"
+     x2="425"
+     y1="201"
+     y2="206"
+     id="line4347"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="425"
+     x2="425"
+     y1="215"
+     y2="220"
+     id="line4349"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="425"
+     x2="425"
+     y1="225"
+     y2="230"
+     id="line4351"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="425"
+     x2="425"
+     y1="235"
+     y2="240"
+     id="line4353"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="425"
+     x2="425"
+     y1="245"
+     y2="250"
+     id="line4355"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="425"
+     x2="425"
+     y1="255"
+     y2="260"
+     id="line4357"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="253"
+     y2="258"
+     id="line4359" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="263"
+     y2="268"
+     id="line4361" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="273"
+     y2="278"
+     id="line4363" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="283"
+     y2="288"
+     id="line4365" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="293"
+     y2="298"
+     id="line4367" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="303"
+     y2="308"
+     id="line4369" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="313"
+     y2="318"
+     id="line4371" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="323"
+     y2="328"
+     id="line4373" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="333"
+     y2="338"
+     id="line4375" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="343"
+     y2="348"
+     id="line4377" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="353"
+     y2="358"
+     id="line4379" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="425"
+     x2="425"
+     y1="363"
+     y2="365"
+     id="line4381" />
+  <rect
+     height="40"
+     width="20"
+     x="417"
+     y="292"
+     id="rect4383"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:1" />
+  <rect
+     height="40"
+     width="20"
+     x="415"
+     y="86"
+     id="rect4385"
+     style="fill:none;stroke:#000000;stroke-width:1" />
+  <rect
+     height="48"
+     width="20"
+     x="415"
+     y="210"
+     id="rect4387"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:1" />
+  <rect
+     height="48"
+     width="20"
+     x="415"
+     y="210"
+     id="rect4389"
+     style="fill:none;stroke:#000000;stroke-width:1" />
+  <rect
+     fill="#ffffff"
+     height="56"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="20"
+     x="415"
+     y="294"
+     id="rect4391" />
+  <rect
+     fill="none"
+     height="56"
+     stroke="#000000"
+     stroke-width="1"
+     width="20"
+     x="415"
+     y="294"
+     id="rect4393" />
+  <rect
+     fill="#ffffff"
+     height="50"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="150"
+     x="350"
+     y="14"
+     id="rect4395" />
+  <rect
+     fill="none"
+     height="50"
+     stroke="#000000"
+     stroke-width="1"
+     width="150"
+     x="350"
+     y="14"
+     id="rect4397" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="400"
+     y="27"
+     id="text4399">
+:System</text>
+  <polyline
+     points="108,110 415,110"
+     id="polyline4401"
+     transform="translate(0,-24)"
+     style="fill:none;stroke:#000000;stroke-width:1" />
+  <polygon
+     points="403,103 415,110 403,117 "
+     id="polygon4403"
+     transform="translate(0,-24)"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:1" />
+  <polygon
+     points="403,103 415,110 403,117 "
+     id="polygon4405"
+     transform="translate(0,-24)"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <text
+     font-size="12"
+     x="217"
+     y="81"
+     id="text4407"
+     style="font-size:12px;font-family:Dialog">fetchPendantReq()</text>
+  <line
+     x1="415"
+     x2="410"
+     y1="126"
+     y2="126"
+     id="line4409"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="405"
+     x2="400"
+     y1="126"
+     y2="126"
+     id="line4411"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="395"
+     x2="390"
+     y1="126"
+     y2="126"
+     id="line4413"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="385"
+     x2="380"
+     y1="126"
+     y2="126"
+     id="line4415"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="375"
+     x2="370"
+     y1="126"
+     y2="126"
+     id="line4417"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="365"
+     x2="360"
+     y1="126"
+     y2="126"
+     id="line4419"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="355"
+     x2="350"
+     y1="126"
+     y2="126"
+     id="line4421"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="345"
+     x2="340"
+     y1="126"
+     y2="126"
+     id="line4423"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="335"
+     x2="330"
+     y1="126"
+     y2="126"
+     id="line4425"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="325"
+     x2="320"
+     y1="126"
+     y2="126"
+     id="line4427"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="315"
+     x2="310"
+     y1="126"
+     y2="126"
+     id="line4429"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="305"
+     x2="300"
+     y1="126"
+     y2="126"
+     id="line4431"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="295"
+     x2="290"
+     y1="126"
+     y2="126"
+     id="line4433"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="285"
+     x2="280"
+     y1="126"
+     y2="126"
+     id="line4435"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="275"
+     x2="270"
+     y1="126"
+     y2="126"
+     id="line4437"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="265"
+     x2="260"
+     y1="126"
+     y2="126"
+     id="line4439"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="255"
+     x2="250"
+     y1="126"
+     y2="126"
+     id="line4441"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="245"
+     x2="240"
+     y1="126"
+     y2="126"
+     id="line4443"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="235"
+     x2="230"
+     y1="126"
+     y2="126"
+     id="line4445"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="225"
+     x2="220"
+     y1="126"
+     y2="126"
+     id="line4447"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="215"
+     x2="210"
+     y1="126"
+     y2="126"
+     id="line4449"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="205"
+     x2="200"
+     y1="126"
+     y2="126"
+     id="line4451"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="195"
+     x2="190"
+     y1="126"
+     y2="126"
+     id="line4453"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="185"
+     x2="180"
+     y1="126"
+     y2="126"
+     id="line4455"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="175"
+     x2="170"
+     y1="126"
+     y2="126"
+     id="line4457"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="165"
+     x2="160"
+     y1="126"
+     y2="126"
+     id="line4459"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="155"
+     x2="150"
+     y1="126"
+     y2="126"
+     id="line4461"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="145"
+     x2="140"
+     y1="126"
+     y2="126"
+     id="line4463"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="135"
+     x2="130"
+     y1="126"
+     y2="126"
+     id="line4465"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="125"
+     x2="120"
+     y1="126"
+     y2="126"
+     id="line4467"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="115"
+     x2="110"
+     y1="126"
+     y2="126"
+     id="line4469"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="120"
+     x2="108"
+     y1="119"
+     y2="126"
+     id="line4471"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="120"
+     x2="108"
+     y1="133"
+     y2="126"
+     id="line4473"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <text
+     font-size="12"
+     x="218"
+     y="121"
+     id="text4475"
+     style="font-size:12px;font-family:Dialog">msg:Messaggio[]</text>
+  <polyline
+     fill="none"
+     points="108,294 415,294"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline4477" />
+  <polygon
+     fill="#ffffff"
+     points="415,294 403,301 403,287"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon4479" />
+  <polygon
+     fill="none"
+     points="415,294 403,301 403,287"
+     stroke="#000000"
+     stroke-width="1"
+     id="polygon4481"
+     style="fill:#000000" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="145"
+     y="289"
+     id="text4483">
+Reserve (msg[i], priority, slot[j], doctor)</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="415"
+     x2="410"
+     y1="350"
+     y2="350"
+     id="line4485" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="405"
+     x2="400"
+     y1="350"
+     y2="350"
+     id="line4487" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="395"
+     x2="390"
+     y1="350"
+     y2="350"
+     id="line4489" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="385"
+     x2="380"
+     y1="350"
+     y2="350"
+     id="line4491" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="375"
+     x2="370"
+     y1="350"
+     y2="350"
+     id="line4493" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="365"
+     x2="360"
+     y1="350"
+     y2="350"
+     id="line4495" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="355"
+     x2="350"
+     y1="350"
+     y2="350"
+     id="line4497" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="345"
+     x2="340"
+     y1="350"
+     y2="350"
+     id="line4499" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="335"
+     x2="330"
+     y1="350"
+     y2="350"
+     id="line4501" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="325"
+     x2="320"
+     y1="350"
+     y2="350"
+     id="line4503" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="315"
+     x2="310"
+     y1="350"
+     y2="350"
+     id="line4505" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="305"
+     x2="300"
+     y1="350"
+     y2="350"
+     id="line4507" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="295"
+     x2="290"
+     y1="350"
+     y2="350"
+     id="line4509" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="285"
+     x2="280"
+     y1="350"
+     y2="350"
+     id="line4511" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="275"
+     x2="270"
+     y1="350"
+     y2="350"
+     id="line4513" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="265"
+     x2="260"
+     y1="350"
+     y2="350"
+     id="line4515" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="255"
+     x2="250"
+     y1="350"
+     y2="350"
+     id="line4517" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="245"
+     x2="240"
+     y1="350"
+     y2="350"
+     id="line4519" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="235"
+     x2="230"
+     y1="350"
+     y2="350"
+     id="line4521" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="225"
+     x2="220"
+     y1="350"
+     y2="350"
+     id="line4523" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="215"
+     x2="210"
+     y1="350"
+     y2="350"
+     id="line4525" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="205"
+     x2="200"
+     y1="350"
+     y2="350"
+     id="line4527" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="195"
+     x2="190"
+     y1="350"
+     y2="350"
+     id="line4529" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="185"
+     x2="180"
+     y1="350"
+     y2="350"
+     id="line4531" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="175"
+     x2="170"
+     y1="350"
+     y2="350"
+     id="line4533" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="165"
+     x2="160"
+     y1="350"
+     y2="350"
+     id="line4535" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="155"
+     x2="150"
+     y1="350"
+     y2="350"
+     id="line4537" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="145"
+     x2="140"
+     y1="350"
+     y2="350"
+     id="line4539" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="135"
+     x2="130"
+     y1="350"
+     y2="350"
+     id="line4541" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="125"
+     x2="120"
+     y1="350"
+     y2="350"
+     id="line4543" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="115"
+     x2="110"
+     y1="350"
+     y2="350"
+     id="line4545" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="120"
+     x2="108"
+     y1="343"
+     y2="350"
+     id="line4547" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="120"
+     x2="108"
+     y1="357"
+     y2="350"
+     id="line4549" />
+  <text
+     font-family="Dialog"
+     font-size="12"
+     x="225"
+     y="344"
+     id="text4551">
+notify</text>
+  <polyline
+     points="108,198 415,198"
+     id="polyline4553"
+     style="fill:none;stroke:#000000;stroke-width:1"
+     transform="translate(0,12)" />
+  <polygon
+     points="403,205 403,191 415,198 "
+     id="polygon4555"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:1"
+     transform="translate(0,12)" />
+  <polygon
+     points="403,205 403,191 415,198 "
+     id="polygon4557"
+     style="fill:#000000;stroke:#000000;stroke-width:1"
+     transform="translate(0,12)" />
+  <text
+     font-size="12"
+     x="139"
+     y="204"
+     id="text4559"
+     style="font-size:12px;font-family:Dialog">getFreeSlotsAfter (Amministratore, today())</text>
+  <line
+     x1="415"
+     x2="410"
+     y1="258"
+     y2="258"
+     id="line4561"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="405"
+     x2="400"
+     y1="258"
+     y2="258"
+     id="line4563"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="395"
+     x2="390"
+     y1="258"
+     y2="258"
+     id="line4565"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="385"
+     x2="380"
+     y1="258"
+     y2="258"
+     id="line4567"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="375"
+     x2="370"
+     y1="258"
+     y2="258"
+     id="line4569"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="365"
+     x2="360"
+     y1="258"
+     y2="258"
+     id="line4571"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="355"
+     x2="350"
+     y1="258"
+     y2="258"
+     id="line4573"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="345"
+     x2="340"
+     y1="258"
+     y2="258"
+     id="line4575"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="335"
+     x2="330"
+     y1="258"
+     y2="258"
+     id="line4577"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="325"
+     x2="320"
+     y1="258"
+     y2="258"
+     id="line4579"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="315"
+     x2="310"
+     y1="258"
+     y2="258"
+     id="line4581"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="305"
+     x2="300"
+     y1="258"
+     y2="258"
+     id="line4583"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="295"
+     x2="290"
+     y1="258"
+     y2="258"
+     id="line4585"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="285"
+     x2="280"
+     y1="258"
+     y2="258"
+     id="line4587"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="275"
+     x2="270"
+     y1="258"
+     y2="258"
+     id="line4589"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="265"
+     x2="260"
+     y1="258"
+     y2="258"
+     id="line4591"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="255"
+     x2="250"
+     y1="258"
+     y2="258"
+     id="line4593"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="245"
+     x2="240"
+     y1="258"
+     y2="258"
+     id="line4595"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="235"
+     x2="230"
+     y1="258"
+     y2="258"
+     id="line4597"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="225"
+     x2="220"
+     y1="258"
+     y2="258"
+     id="line4599"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="215"
+     x2="210"
+     y1="258"
+     y2="258"
+     id="line4601"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="205"
+     x2="200"
+     y1="258"
+     y2="258"
+     id="line4603"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="195"
+     x2="190"
+     y1="258"
+     y2="258"
+     id="line4605"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="185"
+     x2="180"
+     y1="258"
+     y2="258"
+     id="line4607"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="175"
+     x2="170"
+     y1="258"
+     y2="258"
+     id="line4609"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="165"
+     x2="160"
+     y1="258"
+     y2="258"
+     id="line4611"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="155"
+     x2="150"
+     y1="258"
+     y2="258"
+     id="line4613"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="145"
+     x2="140"
+     y1="258"
+     y2="258"
+     id="line4615"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="135"
+     x2="130"
+     y1="258"
+     y2="258"
+     id="line4617"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="125"
+     x2="120"
+     y1="258"
+     y2="258"
+     id="line4619"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="115"
+     x2="110"
+     y1="258"
+     y2="258"
+     id="line4621"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="120"
+     x2="108"
+     y1="251"
+     y2="258"
+     id="line4623"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <line
+     x1="120"
+     x2="108"
+     y1="265"
+     y2="258"
+     id="line4625"
+     style="fill:#000000;stroke:#000000;stroke-width:1" />
+  <text
+     font-size="12"
+     x="218"
+     y="253"
+     id="text4627"
+     style="font-size:12px;font-family:Dialog">slot:(date,time,room)[]</text>
+  <rect
+     height="38.305099"
+     width="11.551459"
+     x="419.65976"
+     y="86.369431"
+     id="rect4387-0"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:0.67890823" />
+  <text
+     xml:space="preserve"
+     style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;opacity:0.97999999999999998"
+     x="220.16129"
+     y="163.87097"
+     id="text3948"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3950"
+       x="220.16129"
+       y="163.87097" /></text>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3958"
+     style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:20px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+       id="flowRegion3960"><rect
+         id="rect3962"
+         width="55.645161"
+         height="200.80646"
+         x="-190.32259"
+         y="79.19355" /></flowRegion><flowPara
+       id="flowPara3964" /></flowRoot>  <g
+     id="g3614">
+    <rect
+       y="137.25807"
+       x="44.354839"
+       height="52.419353"
+       width="436.29031"
+       id="rect3178"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3954"
+       y="176.77419"
+       x="174.19356"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="176.77419"
+         x="174.19356"
+         id="tspan3956"
+         sodipodi:role="line">Editing Reservations</tspan></text>
+    <g
+       transform="translate(258,-58)"
+       id="g3609">
+      <text
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="-197.45161"
+         y="211.83871"
+         id="text3970"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3972"
+           x="-197.45161"
+           y="211.83871">ref</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.46227846"
+         d="m -214.0625,195.0625 0,27.09375 49.0625,0 17.1875,-17.5625 0,-9.53125 -66.25,0 z"
+         id="rect4315-1" />
+    </g>
+  </g>
+</svg>

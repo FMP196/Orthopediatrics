@@ -1,0 +1,17 @@
+\chapter{Valutazione finale}
+\minitoc\mtcskip
+
+\section{Revisione finale (Sviluppo II)}
+[TODO] Importare Fabian.
+
+\section{Revisione delle stime}
+Utilizzando il tool \textsc{SLOCCount} di \it{David A. Wheeler}, otteniamo
+la seguente valutazione in base alle righe di codice:
+%description
+\item[LOC] 4,642
+\item[Development Effort Estimate, Person-Months\footnote{Si utilizza la formula 
+COCOMO $2.4 \cdot (KSLOC^{1.05)}$}] 12.03
+\item[Schedule Estimate, Months] 6.43
+\item[Total Estimated Cost to Develop\footnote{Stimando un salario di
+\$56,286/anno a sviluppatore}] \$ 135,420
+.%

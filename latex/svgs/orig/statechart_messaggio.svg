@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="151" version="1.1" width="637" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="22" cy="41" fill="#000000" rx="8.0" ry="8.0" stroke="#000000" stroke-width="1"/>
+<rect fill="#00ff" height="46" rx="16" ry="16" stroke="#00ff" stroke-width="1" width="104" x="118" y="17"/>
+<rect fill="#ffffff" height="46" rx="16" ry="16" stroke="#ffffff" stroke-width="1" width="104" x="118" y="17"/>
+<rect fill="#ffffff" height="46" rx="16" ry="16" stroke="#000000" stroke-width="1" width="104" x="118" y="17"/>
+<text font-family="Dialog" font-size="12" x="145" y="30">
+created</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="118" x2="221" y1="40" y2="40"/>
+<polyline fill="none" points="31,41 118,41" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="118" y1="48" y2="41"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="118" y1="34" y2="41"/>
+<ellipse cx="138" cy="125" fill="#000000" rx="12.0" ry="12.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="138" cy="125" fill="#ffffff" rx="11.0" ry="11.0" stroke="#ffffff" stroke-width="1"/>
+<ellipse cx="137" cy="124" fill="#000000" rx="7.5" ry="7.5" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="138,63 138,113" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="131" x2="138" y1="101" y2="113"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="145" x2="138" y1="101" y2="113"/>
+<text font-family="Dialog" font-size="12" x="140" y="91">
+canceled</text>
+<rect fill="#00ff" height="46" rx="16" ry="16" stroke="#00ff" stroke-width="1" width="104" x="294" y="17"/>
+<rect fill="#ffffff" height="46" rx="16" ry="16" stroke="#ffffff" stroke-width="1" width="104" x="294" y="17"/>
+<rect fill="#ffffff" height="46" rx="16" ry="16" stroke="#000000" stroke-width="1" width="104" x="294" y="17"/>
+<text font-family="Dialog" font-size="12" x="317" y="30">
+delivered</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="294" x2="397" y1="40" y2="40"/>
+<polyline fill="none" points="222,41 294,41" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="282" x2="294" y1="48" y2="41"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="282" x2="294" y1="34" y2="41"/>
+<text font-family="Dialog" font-size="12" x="242" y="36">
+send</text>
+<rect fill="#00ff" height="46" rx="16" ry="16" stroke="#00ff" stroke-width="1" width="104" x="478" y="17"/>
+<rect fill="#ffffff" height="46" rx="16" ry="16" stroke="#ffffff" stroke-width="1" width="104" x="478" y="17"/>
+<rect fill="#ffffff" height="46" rx="16" ry="16" stroke="#000000" stroke-width="1" width="104" x="478" y="17"/>
+<text font-family="Dialog" font-size="12" x="515" y="30">
+read</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="478" x2="581" y1="40" y2="40"/>
+<polyline fill="none" points="398,41 478,41" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="466" x2="478" y1="48" y2="41"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="466" x2="478" y1="34" y2="41"/>
+<text font-family="Dialog" font-size="12" x="422" y="36">
+read</text>
+<ellipse cx="562" cy="125" fill="#000000" rx="12.0" ry="12.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="562" cy="125" fill="#ffffff" rx="11.0" ry="11.0" stroke="#ffffff" stroke-width="1"/>
+<ellipse cx="561" cy="124" fill="#000000" rx="7.5" ry="7.5" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="562,63 562,113" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="555" x2="562" y1="101" y2="113"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="569" x2="562" y1="101" y2="113"/>
+<text font-family="Dialog" font-size="12" x="565" y="90">
+canceled</text>
+<polygon fill="#ffffff" points="286,97 363,97 373,107 373,120 286,120 286,97" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="286,97 363,97 373,107 373,120 286,120 286,97" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="363,97 373,107 363,107 363,97" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="363,97 373,107 363,107 363,97" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="289" y="112">
+Messagge</text>
+</svg>

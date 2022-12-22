@@ -1,0 +1,2542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="540"
+   version="1.1"
+   width="1724"
+   id="svg2"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="DomainModel01.svg">
+  <metadata
+     id="metadata1248">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1246" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="691"
+     id="namedview1244"
+     showgrid="false"
+     inkscape:zoom="1.1113689"
+     inkscape:cx="608.0876"
+     inkscape:cy="175.42385"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <rect
+     fill="#ffffff"
+     height="199"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="146"
+     x="102"
+     y="86"
+     id="rect4" />
+  <rect
+     fill="none"
+     height="199"
+     stroke="#000000"
+     stroke-width="1"
+     width="146"
+     x="102"
+     y="86"
+     id="rect6" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="133"
+     y="100"
+     id="text8">
+ModelPatient</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="146"
+     x="102"
+     y="111"
+     id="rect10" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="106"
+     y="126"
+     id="text12">
+nomeutente : String</text>
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="106"
+     y="144"
+     id="text14">
+Nome : String</text>
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="106"
+     y="162"
+     id="text16">
+Cognome : String</text>
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="106"
+     y="180"
+     id="text18">
+Indirizzo : String</text>
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="106"
+     y="198"
+     id="text20">
+Email : Integer</text>
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="106"
+     y="216"
+     id="text22">
+Nascita : Date</text>
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="106"
+     y="234"
+     id="text24">
+Password : String</text>
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="106"
+     y="252"
+     id="text26">
+Tutore : Tutore</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="146"
+     x="102"
+     y="263"
+     id="rect28" />
+  <rect
+     fill="#ffffff"
+     height="73"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="77"
+     x="62"
+     y="446"
+     id="rect30" />
+  <rect
+     fill="none"
+     height="73"
+     stroke="#000000"
+     stroke-width="1"
+     width="77"
+     x="62"
+     y="446"
+     id="rect32" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="80"
+     y="460"
+     id="text34">
+Tutore</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="77"
+     x="62"
+     y="471"
+     id="rect36" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="66"
+     y="486"
+     id="text38">
+credenziali</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="77"
+     x="62"
+     y="497"
+     id="rect40" />
+  <rect
+     fill="#ffffff"
+     height="68"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="155"
+     x="174"
+     y="318"
+     id="rect42" />
+  <rect
+     fill="none"
+     height="68"
+     stroke="#000000"
+     stroke-width="1"
+     width="155"
+     x="174"
+     y="318"
+     id="rect44" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="179"
+     y="332"
+     id="text46">
+Paziente maggiorenne</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="155"
+     x="174"
+     y="343"
+     id="rect48" />
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="155"
+     x="174"
+     y="364"
+     id="rect50" />
+  <rect
+     fill="#ffffff"
+     height="91"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="168"
+     x="310"
+     y="118"
+     id="rect52" />
+  <rect
+     fill="none"
+     height="91"
+     stroke="#000000"
+     stroke-width="1"
+     width="168"
+     x="310"
+     y="118"
+     id="rect54" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="352"
+     y="132"
+     id="text56">
+Prenotazione</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="168"
+     x="310"
+     y="143"
+     id="rect58" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="314"
+     y="158"
+     id="text60">
+id : Integer</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="168"
+     x="310"
+     y="187"
+     id="rect64" />
+  <rect
+     fill="#ffffff"
+     height="68"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="139"
+     x="30"
+     y="318"
+     id="rect66" />
+  <rect
+     fill="none"
+     height="68"
+     stroke="#000000"
+     stroke-width="1"
+     width="139"
+     x="30"
+     y="318"
+     id="rect68" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="35"
+     y="332"
+     id="text70">
+Paziente minorenne</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="139"
+     x="30"
+     y="343"
+     id="rect72" />
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="139"
+     x="30"
+     y="364"
+     id="rect74" />
+  <rect
+     fill="#ffffff"
+     height="91"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="176"
+     x="494"
+     y="102"
+     id="rect76" />
+  <rect
+     fill="none"
+     height="91"
+     stroke="#000000"
+     stroke-width="1"
+     width="176"
+     x="494"
+     y="102"
+     id="rect78" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="532"
+     y="116"
+     id="text80">
+Amministratore</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="176"
+     x="494"
+     y="127"
+     id="rect82" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="498"
+     y="142"
+     id="text84">
+Nomeutente : String</text>
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="498"
+     y="160"
+     id="text86">
+Password : String</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="176"
+     x="494"
+     y="171"
+     id="rect88" />
+  <rect
+     fill="#ffffff"
+     height="91"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="168"
+     x="534"
+     y="310"
+     id="rect90" />
+  <rect
+     fill="none"
+     height="91"
+     stroke="#000000"
+     stroke-width="1"
+     width="168"
+     x="534"
+     y="310"
+     id="rect92" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="604"
+     y="324"
+     id="text94">
+Sala</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="168"
+     x="534"
+     y="335"
+     id="rect96" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="538"
+     y="350"
+     id="text98">
+Numero : Integer</text>
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="538"
+     y="368"
+     id="text100">
+Amministratore : String</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="168"
+     x="534"
+     y="379"
+     id="rect102" />
+  <polyline
+     fill="none"
+     points="246,318 246,310 174,310 174,284"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline104" />
+  <polygon
+     fill="#ffffff"
+     points="174,284 181,296 167,296"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon106" />
+  <polygon
+     fill="none"
+     points="174,284 181,296 167,296"
+     stroke="#000000"
+     stroke-width="1"
+     id="polygon108" />
+  <polyline
+     fill="none"
+     points="102,318 102,310 174,310 174,284"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline110" />
+  <polygon
+     fill="#ffffff"
+     points="174,284 181,296 167,296"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon112" />
+  <polygon
+     fill="none"
+     points="174,284 181,296 167,296"
+     stroke="#000000"
+     stroke-width="1"
+     id="polygon114" />
+  <rect
+     fill="#ffffff"
+     height="69"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="75"
+     x="14"
+     y="230"
+     id="rect116" />
+  <rect
+     fill="none"
+     height="69"
+     stroke="#000000"
+     stroke-width="1"
+     width="75"
+     x="14"
+     y="230"
+     id="rect118" />
+  <text
+     font-size="13"
+     x="19"
+     y="244"
+     id="text120"
+     style="font-size:13px;font-family:Dialog">DB</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="75"
+     x="14"
+     y="255"
+     id="rect122" />
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="75"
+     x="14"
+     y="276"
+     id="rect124" />
+  <polyline
+     fill="none"
+     points="102,230 88,230"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline126" />
+  <polyline
+     fill="none"
+     points="574,192 574,310"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline128" />
+  <polyline
+     fill="none"
+     points="494,182 477,182"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline130" />
+  <rect
+     fill="#ffffff"
+     height="69"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="71"
+     x="494"
+     y="222"
+     id="rect132" />
+  <rect
+     fill="#ffffff"
+     height="109"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="147"
+     x="366"
+     y="294"
+     id="rect144" />
+  <rect
+     fill="none"
+     height="109"
+     stroke="#000000"
+     stroke-width="1"
+     width="147"
+     x="366"
+     y="294"
+     id="rect146" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="427"
+     y="308"
+     id="text148">
+Slot</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="147"
+     x="366"
+     y="319"
+     id="rect150" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="370"
+     y="334"
+     id="text152">
+data : Date</text>
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="370"
+     y="352"
+     id="text154">
+ora : Integer</text>
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="370"
+     y="370"
+     id="text156">
+sala : Sala</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="147"
+     x="366"
+     y="381"
+     id="rect158" />
+  <polyline
+     fill="none"
+     points="456,208 456,294"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline160" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="462"
+     y="256"
+     id="text162">
+slot</text>
+  <rect
+     fill="#ffffff"
+     height="73"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="180"
+     x="1302"
+     y="70"
+     id="rect164" />
+  <rect
+     fill="none"
+     height="73"
+     stroke="#000000"
+     stroke-width="1"
+     width="180"
+     x="1302"
+     y="70"
+     id="rect166" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="1368"
+     y="84"
+     id="text168">
+GuestC</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="180"
+     x="1302"
+     y="95"
+     id="rect170" />
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="180"
+     x="1302"
+     y="116"
+     id="rect172" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="1306"
+     y="131"
+     id="text174">
+login(username,password)</text>
+  <rect
+     fill="#ffffff"
+     height="73"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="199"
+     x="1086"
+     y="198"
+     id="rect176" />
+  <rect
+     fill="none"
+     height="73"
+     stroke="#000000"
+     stroke-width="1"
+     width="199"
+     x="1086"
+     y="198"
+     id="rect178" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="1131"
+     y="212"
+     id="text180">
+CAmministratore</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="199"
+     x="1086"
+     y="223"
+     id="rect182" />
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="199"
+     x="1086"
+     y="244"
+     id="rect184" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="1090"
+     y="259"
+     id="text186">
+login(username,password)</text>
+  <polyline
+     fill="none"
+     points="1230,198 1230,166 1390,166 1390,142"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline188" />
+  <polygon
+     fill="#ffffff"
+     points="1390,142 1397,154 1383,154"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon190" />
+  <polygon
+     fill="none"
+     points="1390,142 1397,154 1383,154"
+     stroke="#000000"
+     stroke-width="1"
+     id="polygon192" />
+  <rect
+     fill="#ffffff"
+     height="109"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="329"
+     x="1318"
+     y="198"
+     id="rect194" />
+  <rect
+     fill="none"
+     height="109"
+     stroke="#000000"
+     stroke-width="1"
+     width="329"
+     x="1318"
+     y="198"
+     id="rect196" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="1450"
+     y="212"
+     id="text198">
+CPaziente</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="329"
+     x="1318"
+     y="223"
+     id="rect200" />
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="329"
+     x="1318"
+     y="253"
+     id="rect202" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="1322"
+     y="268"
+     id="text204">
+login(username,password)</text>
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="1322"
+     y="286"
+     id="text206">
+create(username,password,nome,cognome,...)</text>
+  <polyline
+     fill="none"
+     points="1454,198 1454,166 1390,166 1390,142"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline208" />
+  <polygon
+     fill="#ffffff"
+     points="1390,142 1397,154 1383,154"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon210" />
+  <polygon
+     fill="none"
+     points="1390,142 1397,154 1383,154"
+     stroke="#000000"
+     stroke-width="1"
+     id="polygon212" />
+  <polygon
+     fill="#ffffff"
+     points="1334,306 1341,318 1327,318"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon244" />
+  <polygon
+     fill="none"
+     points="1334,306 1341,318 1327,318"
+     stroke="#000000"
+     stroke-width="1"
+     id="polygon246" />
+  <polygon
+     fill="#ffffff"
+     points="1334,306 1341,318 1327,318"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon250" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="182"
+     x2="182"
+     y1="388"
+     y2="385"
+     id="line484" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1086"
+     x2="1081"
+     y1="254"
+     y2="254"
+     id="line830" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1076"
+     x2="1071"
+     y1="254"
+     y2="254"
+     id="line832" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1066"
+     x2="1061"
+     y1="254"
+     y2="254"
+     id="line834" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1056"
+     x2="1051"
+     y1="254"
+     y2="254"
+     id="line836" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1046"
+     x2="1041"
+     y1="254"
+     y2="254"
+     id="line838" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1036"
+     x2="1031"
+     y1="254"
+     y2="254"
+     id="line840" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1026"
+     x2="1021"
+     y1="254"
+     y2="254"
+     id="line842" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1016"
+     x2="1011"
+     y1="254"
+     y2="254"
+     id="line844" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="1006"
+     x2="1001"
+     y1="254"
+     y2="254"
+     id="line846" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="996"
+     x2="991"
+     y1="254"
+     y2="254"
+     id="line848" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="986"
+     x2="981"
+     y1="254"
+     y2="254"
+     id="line850" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="976"
+     x2="971"
+     y1="254"
+     y2="254"
+     id="line852" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="966"
+     x2="961"
+     y1="254"
+     y2="254"
+     id="line854" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="956"
+     x2="951"
+     y1="254"
+     y2="254"
+     id="line856" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="946"
+     x2="941"
+     y1="254"
+     y2="254"
+     id="line858" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="936"
+     x2="931"
+     y1="254"
+     y2="254"
+     id="line860" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="926"
+     x2="921"
+     y1="254"
+     y2="254"
+     id="line862" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="916"
+     x2="911"
+     y1="254"
+     y2="254"
+     id="line864" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="906"
+     x2="901"
+     y1="254"
+     y2="254"
+     id="line866" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="896"
+     x2="891"
+     y1="254"
+     y2="254"
+     id="line868" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="886"
+     x2="881"
+     y1="254"
+     y2="254"
+     id="line870" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="876"
+     x2="871"
+     y1="254"
+     y2="254"
+     id="line872" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="866"
+     x2="861"
+     y1="254"
+     y2="254"
+     id="line874" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="856"
+     x2="851"
+     y1="254"
+     y2="254"
+     id="line876" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="846"
+     x2="841"
+     y1="254"
+     y2="254"
+     id="line878" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="836"
+     x2="831"
+     y1="254"
+     y2="254"
+     id="line880" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="826"
+     x2="821"
+     y1="254"
+     y2="254"
+     id="line882" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="816"
+     x2="811"
+     y1="254"
+     y2="254"
+     id="line884" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="806"
+     x2="801"
+     y1="254"
+     y2="254"
+     id="line886" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="796"
+     x2="791"
+     y1="254"
+     y2="254"
+     id="line888" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="786"
+     x2="781"
+     y1="254"
+     y2="254"
+     id="line890" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="776"
+     x2="771"
+     y1="254"
+     y2="254"
+     id="line892" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="766"
+     x2="761"
+     y1="254"
+     y2="254"
+     id="line894" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="756"
+     x2="751"
+     y1="254"
+     y2="254"
+     id="line896" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="746"
+     x2="741"
+     y1="254"
+     y2="254"
+     id="line898" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="736"
+     x2="731"
+     y1="254"
+     y2="254"
+     id="line900" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="726"
+     x2="721"
+     y1="254"
+     y2="254"
+     id="line902" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="716"
+     x2="711"
+     y1="254"
+     y2="254"
+     id="line904" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="706"
+     x2="701"
+     y1="254"
+     y2="254"
+     id="line906" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="696"
+     x2="691"
+     y1="254"
+     y2="254"
+     id="line908" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="686"
+     x2="681"
+     y1="254"
+     y2="254"
+     id="line910" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="676"
+     x2="671"
+     y1="254"
+     y2="254"
+     id="line912" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="666"
+     x2="661"
+     y1="254"
+     y2="254"
+     id="line914" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="656"
+     x2="651"
+     y1="254"
+     y2="254"
+     id="line916" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="646"
+     x2="641"
+     y1="254"
+     y2="254"
+     id="line918" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="636"
+     x2="631"
+     y1="254"
+     y2="254"
+     id="line920" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="626"
+     x2="621"
+     y1="254"
+     y2="254"
+     id="line922" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="616"
+     x2="611"
+     y1="254"
+     y2="254"
+     id="line924" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="606"
+     x2="601"
+     y1="254"
+     y2="254"
+     id="line926" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="596"
+     x2="591"
+     y1="254"
+     y2="254"
+     id="line928" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="590"
+     x2="590"
+     y1="254"
+     y2="249"
+     id="line930" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="590"
+     x2="590"
+     y1="244"
+     y2="239"
+     id="line932" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="590"
+     x2="590"
+     y1="234"
+     y2="229"
+     id="line934" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="590"
+     x2="590"
+     y1="224"
+     y2="219"
+     id="line936" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="590"
+     x2="590"
+     y1="214"
+     y2="209"
+     id="line938" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="590"
+     x2="590"
+     y1="204"
+     y2="199"
+     id="line940" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="590"
+     x2="590"
+     y1="194"
+     y2="192"
+     id="line942" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="597"
+     x2="590"
+     y1="204"
+     y2="192"
+     id="line944" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="583"
+     x2="590"
+     y1="204"
+     y2="192"
+     id="line946" />
+  <rect
+     fill="#ffffff"
+     height="69"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="66"
+     x="342"
+     y="14"
+     id="rect948" />
+  <rect
+     fill="none"
+     height="69"
+     stroke="#000000"
+     stroke-width="1"
+     width="66"
+     x="342"
+     y="14"
+     id="rect950" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="356"
+     y="28"
+     id="text952">
+Guest</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="66"
+     x="342"
+     y="39"
+     id="rect954" />
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="66"
+     x="342"
+     y="60"
+     id="rect956" />
+  <polyline
+     fill="none"
+     points="247,86 342,82"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline958" />
+  <polygon
+     fill="#ffffff"
+     points="342,82 330,89 329,75"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon960" />
+  <polygon
+     fill="none"
+     points="342,82 330,89 329,75"
+     stroke="#000000"
+     stroke-width="1"
+     id="polygon962" />
+  <polyline
+     fill="none"
+     points="494,102 407,82"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline964" />
+  <polygon
+     fill="#ffffff"
+     points="407,82 420,77 417,91"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon966" />
+  <polygon
+     fill="none"
+     points="407,82 420,77 417,91"
+     stroke="#000000"
+     stroke-width="1"
+     id="polygon968" />
+  <rect
+     fill="#ffffff"
+     height="69"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="77"
+     x="678"
+     y="126"
+     id="rect970" />
+  <rect
+     fill="none"
+     height="69"
+     stroke="#000000"
+     stroke-width="1"
+     width="77"
+     x="678"
+     y="126"
+     id="rect972" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="683"
+     y="140"
+     id="text974">
+MPaziente</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="77"
+     x="678"
+     y="151"
+     id="rect976" />
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="77"
+     x="678"
+     y="172"
+     id="rect978" />
+  <rect
+     fill="#ffffff"
+     height="69"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="122"
+     x="822"
+     y="126"
+     id="rect980" />
+  <rect
+     fill="none"
+     height="69"
+     stroke="#000000"
+     stroke-width="1"
+     width="122"
+     x="822"
+     y="126"
+     id="rect982" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="827"
+     y="140"
+     id="text984">
+MAmministratore</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="122"
+     x="822"
+     y="151"
+     id="rect986" />
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="122"
+     x="822"
+     y="172"
+     id="rect988" />
+  <rect
+     fill="#ffffff"
+     height="68"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="110"
+     x="758"
+     y="14"
+     id="rect990" />
+  <rect
+     fill="none"
+     height="68"
+     stroke="#000000"
+     stroke-width="1"
+     width="110"
+     x="758"
+     y="14"
+     id="rect992" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="779"
+     y="49"
+     id="text994">
+Messaggio</text>
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="763"
+     y="29"
+     id="text996">
+&lt;&lt;interface&gt;&gt;</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="110"
+     x="758"
+     y="60"
+     id="rect998" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="742"
+     x2="742"
+     y1="126"
+     y2="121"
+     id="line1000" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="742"
+     x2="742"
+     y1="116"
+     y2="111"
+     id="line1002" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="742"
+     x2="742"
+     y1="106"
+     y2="102"
+     id="line1004" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="742"
+     x2="747"
+     y1="102"
+     y2="102"
+     id="line1006" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="752"
+     x2="757"
+     y1="102"
+     y2="102"
+     id="line1008" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="762"
+     x2="767"
+     y1="102"
+     y2="102"
+     id="line1010" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="772"
+     x2="777"
+     y1="102"
+     y2="102"
+     id="line1012" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="782"
+     x2="787"
+     y1="102"
+     y2="102"
+     id="line1014" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="792"
+     x2="797"
+     y1="102"
+     y2="102"
+     id="line1016" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="802"
+     x2="807"
+     y1="102"
+     y2="102"
+     id="line1018" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="812"
+     x2="814"
+     y1="102"
+     y2="102"
+     id="line1020" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="814"
+     x2="814"
+     y1="102"
+     y2="97"
+     id="line1022" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="814"
+     x2="814"
+     y1="92"
+     y2="87"
+     id="line1024" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="814"
+     x2="814"
+     y1="82"
+     y2="81"
+     id="line1026" />
+  <polygon
+     fill="#ffffff"
+     points="814,81 821,93 807,93"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon1028" />
+  <polygon
+     fill="none"
+     points="814,81 821,93 807,93"
+     stroke="#000000"
+     stroke-width="1"
+     id="polygon1030" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="702"
+     y="94"
+     id="text1032">
+&lt;&lt;realize&gt;&gt;</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="878"
+     x2="878"
+     y1="126"
+     y2="121"
+     id="line1034" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="878"
+     x2="878"
+     y1="116"
+     y2="111"
+     id="line1036" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="878"
+     x2="878"
+     y1="106"
+     y2="102"
+     id="line1038" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="878"
+     x2="873"
+     y1="102"
+     y2="102"
+     id="line1040" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="868"
+     x2="863"
+     y1="102"
+     y2="102"
+     id="line1042" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="858"
+     x2="853"
+     y1="102"
+     y2="102"
+     id="line1044" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="848"
+     x2="843"
+     y1="102"
+     y2="102"
+     id="line1046" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="838"
+     x2="833"
+     y1="102"
+     y2="102"
+     id="line1048" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="828"
+     x2="823"
+     y1="102"
+     y2="102"
+     id="line1050" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="818"
+     x2="814"
+     y1="102"
+     y2="102"
+     id="line1052" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="814"
+     x2="814"
+     y1="102"
+     y2="97"
+     id="line1054" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="814"
+     x2="814"
+     y1="92"
+     y2="87"
+     id="line1056" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="814"
+     x2="814"
+     y1="82"
+     y2="81"
+     id="line1058" />
+  <polygon
+     fill="#ffffff"
+     points="814,81 821,93 807,93"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="polygon1060" />
+  <polygon
+     fill="none"
+     points="814,81 821,93 807,93"
+     stroke="#000000"
+     stroke-width="1"
+     id="polygon1062" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="869"
+     y="101"
+     id="text1064">
+&lt;&lt;realize&gt;&gt;</text>
+  <polyline
+     fill="none"
+     points="407,38 758,38"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline1066" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="531"
+     y="31"
+     id="text1068">
+destinatario</text>
+  <polyline
+     fill="none"
+     points="407,70 758,70"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline1070" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="546"
+     y="63"
+     id="text1072">
+mittente</text>
+  <rect
+     fill="#ffffff"
+     height="91"
+     stroke="#ffffff"
+     stroke-width="1"
+     width="106"
+     x="734"
+     y="334"
+     id="rect1094" />
+  <rect
+     fill="none"
+     height="91"
+     stroke="#000000"
+     stroke-width="1"
+     width="106"
+     x="734"
+     y="334"
+     id="rect1096" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="747"
+     y="348"
+     id="text1098">
+ViewSupport</text>
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="106"
+     x="734"
+     y="359"
+     id="rect1100" />
+  <rect
+     fill="#000000"
+     height="1"
+     stroke="#000000"
+     stroke-width="1"
+     width="106"
+     x="734"
+     y="380"
+     id="rect1102" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="738"
+     y="395"
+     id="text1104">
+viewFile()</text>
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="738"
+     y="413"
+     id="text1106">
+viewPage()</text>
+  <polyline
+     fill="none"
+     points="110,385 110,446"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline1112" />
+  <polyline
+     fill="none"
+     points="310,166 247,166"
+     stroke="#000000"
+     stroke-width="1"
+     id="polyline1114" />
+  <text
+     font-family="Dialog"
+     font-size="13"
+     x="255"
+     y="181"
+     id="text1116">
+paziente</text>
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="734"
+     x2="729"
+     y1="422"
+     y2="422"
+     id="line1118" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="724"
+     x2="719"
+     y1="422"
+     y2="422"
+     id="line1120" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="714"
+     x2="709"
+     y1="422"
+     y2="422"
+     id="line1122" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="704"
+     x2="699"
+     y1="422"
+     y2="422"
+     id="line1124" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="694"
+     x2="689"
+     y1="422"
+     y2="422"
+     id="line1126" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="684"
+     x2="679"
+     y1="422"
+     y2="422"
+     id="line1128" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="674"
+     x2="669"
+     y1="422"
+     y2="422"
+     id="line1130" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="664"
+     x2="659"
+     y1="422"
+     y2="422"
+     id="line1132" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="654"
+     x2="649"
+     y1="422"
+     y2="422"
+     id="line1134" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="644"
+     x2="639"
+     y1="422"
+     y2="422"
+     id="line1136" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="634"
+     x2="629"
+     y1="422"
+     y2="422"
+     id="line1138" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="624"
+     x2="619"
+     y1="422"
+     y2="422"
+     id="line1140" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="614"
+     x2="609"
+     y1="422"
+     y2="422"
+     id="line1142" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="604"
+     x2="599"
+     y1="422"
+     y2="422"
+     id="line1144" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="594"
+     x2="589"
+     y1="422"
+     y2="422"
+     id="line1146" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="584"
+     x2="579"
+     y1="422"
+     y2="422"
+     id="line1148" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="574"
+     x2="569"
+     y1="422"
+     y2="422"
+     id="line1150" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="564"
+     x2="559"
+     y1="422"
+     y2="422"
+     id="line1152" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="554"
+     x2="549"
+     y1="422"
+     y2="422"
+     id="line1154" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="544"
+     x2="539"
+     y1="422"
+     y2="422"
+     id="line1156" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="534"
+     x2="529"
+     y1="422"
+     y2="422"
+     id="line1158" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="524"
+     x2="519"
+     y1="422"
+     y2="422"
+     id="line1160" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="514"
+     x2="509"
+     y1="422"
+     y2="422"
+     id="line1162" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="504"
+     x2="499"
+     y1="422"
+     y2="422"
+     id="line1164" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="494"
+     x2="489"
+     y1="422"
+     y2="422"
+     id="line1166" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="484"
+     x2="479"
+     y1="422"
+     y2="422"
+     id="line1168" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="474"
+     x2="469"
+     y1="422"
+     y2="422"
+     id="line1170" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="464"
+     x2="459"
+     y1="422"
+     y2="422"
+     id="line1172" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="454"
+     x2="449"
+     y1="422"
+     y2="422"
+     id="line1174" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="444"
+     x2="439"
+     y1="422"
+     y2="422"
+     id="line1176" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="434"
+     x2="429"
+     y1="422"
+     y2="422"
+     id="line1178" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="424"
+     x2="419"
+     y1="422"
+     y2="422"
+     id="line1180" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="414"
+     x2="409"
+     y1="422"
+     y2="422"
+     id="line1182" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="404"
+     x2="399"
+     y1="422"
+     y2="422"
+     id="line1184" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="394"
+     x2="389"
+     y1="422"
+     y2="422"
+     id="line1186" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="384"
+     x2="379"
+     y1="422"
+     y2="422"
+     id="line1188" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="374"
+     x2="369"
+     y1="422"
+     y2="422"
+     id="line1190" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="364"
+     x2="359"
+     y1="422"
+     y2="422"
+     id="line1192" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="354"
+     x2="350"
+     y1="422"
+     y2="422"
+     id="line1194" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="422"
+     y2="417"
+     id="line1196" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="412"
+     y2="407"
+     id="line1198" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="402"
+     y2="397"
+     id="line1200" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="392"
+     y2="387"
+     id="line1202" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="382"
+     y2="377"
+     id="line1204" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="372"
+     y2="367"
+     id="line1206" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="362"
+     y2="357"
+     id="line1208" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="352"
+     y2="347"
+     id="line1210" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="342"
+     y2="337"
+     id="line1212" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="332"
+     y2="327"
+     id="line1214" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="322"
+     y2="317"
+     id="line1216" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="312"
+     y2="307"
+     id="line1218" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="302"
+     y2="297"
+     id="line1220" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="292"
+     y2="287"
+     id="line1222" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="282"
+     y2="277"
+     id="line1224" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="272"
+     y2="267"
+     id="line1226" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="262"
+     y2="257"
+     id="line1228" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="252"
+     y2="247"
+     id="line1230" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="242"
+     y2="237"
+     id="line1232" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="232"
+     y2="227"
+     id="line1234" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="222"
+     y2="217"
+     id="line1236" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="350"
+     x2="350"
+     y1="212"
+     y2="208"
+     id="line1238" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="357"
+     x2="350"
+     y1="220"
+     y2="208"
+     id="line1240" />
+  <line
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="1"
+     x1="343"
+     x2="350"
+     y1="220"
+     y2="208"
+     id="line1242" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 88.179541,295.25678 C 558.77036,193.58038 558.77036,193.58038 558.77036,193.58038"
+     id="path4227"
+     inkscape:connector-curvature="0" />
+</svg>

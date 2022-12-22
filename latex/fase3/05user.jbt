@@ -1,0 +1,383 @@
+\subsection{Utente}
+\subsubsection{Vista dei Dati}
+\begin{figure}
+\includegraphics[scale=0.7]{svgs/statechart_user}
+\caption{\textit{User's Statechart}.}
+\label{fig:statechart_user}
+\end{figure}
+Possiamo fornire una descrizione dei possibili stati dell'utente in
+Figura \vref{fig:statechart_user}: nota che, anche se non è prevista
+l'eliminazione da interfaccia grafica di un singolo utente, questa è
+sempre possibile andando ad effettuare modifiche nel database. Questa
+considerazione può essere valutata anche per le credenziali del Tutore.
+
+\subsubsection{Vista dei Casi d'Uso}
+Nella Figura \vref{fig:user_ucview_one} e nella Figura \vref{fig:user_ucview_two} 
+mostriamo i primi \textsc{Diagrammi di 
+Sequenza} attinenti all'interazione tra Utente ed una generica istanza
+del Sistema (\tt{System}). Questi diagrammi fanno riferimento
+ai Casi d'Uso descritti nella Sottosezione \vref{subsec:usecasetext}
+
+\begin{figure}[p]
+ \centering
+   \subfloat[][\emph{Patient's Registration}.]{\includegraphics[scale=0.6]{svgs/patient_Registrazionepaziente}}\\
+   \subfloat[][\emph{View Reservations}.]{\includegraphics[scale=0.6]{svgs/patient_Visualizzazioneprenotazioni}}
+   \subfloat[][\emph{View Reports}.]{\includegraphics[scale=0.6]{svgs/patient_Visualizzazionereferti}}\\
+   \subfloat[][\emph{Request Reservations}.]{\includegraphics[scale=0.6]{svgs/patient_Effettuareprenotazione}}
+   \subfloat[][\emph{User's Login as Patient}.]{\includegraphics[scale=0.6]{svgs/patient_Loginpaziente}}\\
+   \subfloat[][\hbox{\emph{Postpone Patient's Reservation}.}]{\includegraphics[scale=0.6]{svgs/patient_Posticipoprenotazione}}
+   
+ \caption{\emph{Users' Use Case View (1)}.}
+ \label{fig:user_ucview_one}
+\end{figure}
+
+\begin{figure}[!p]
+ \centering
+   \subfloat[][\hbox{\emph{User's Revoke of Reservation}.}]{\includegraphics[scale=0.6]{svgs/patient_Annullamentoprenotazione}}\\
+   \subfloat[][\hbox{\emph{User's Print}.}]{\includegraphics[scale=0.6]{svgs/patient_Stampa}}\\
+   \subfloat[][\hbox{\emph{System Methods to implement}.}]{\includegraphics[scale=0.6]{svgs/patient_DiagrammadiClasse}}\\
+ \caption{\emph{Users' Use Case View (2)}.}
+ \label{fig:user_ucview_two}
+\end{figure}
+
+Elenchiamo i contratti che verranno dettagliati più
+sotto, allo scopo di definire l'interfaccia 
+di sistema pubblica dei nostri metodi:
+%itemize
+\diam \tt{registerNewPatient}
+\diam \tt{login}
+\diam \tt{fetchReservation}
+\diam \tt{fetchReport}
+\diam \tt{tutorCredentials}
+\diam \tt{retireReservation}
+\diam \tt{deferReservation}
+\diam \tt{bindTutorForPatient}
+\diam \tt{printOnSupport}
+\diam \tt{reserveVisit}
+\diam \tt{registerNewPatientFromTutor}
+\diam \tt{registerTutor}
+.%
+
+\begin{tabularx}{\columnwidth}{cX}
+\toprule
+\textsc{Contratto 12}:& \bf{registerNewPatient}\\
+\midrule
+\it{Operazione}: & 	\tt{registerNewPatient(name, surname, address, phoneContatc, emailContact, birthday, username, password)}\\
+\it{Use Case}: &	Registrare il paziente\\
+\it{Pre-condizioni}: &  Nessuna.\\
+\it{Post-condizioni}: & \begin{itemize}
+\item Viene inserito un nuovo paziente nel sistema, creando l'elemento $patient$ con i 
+rispettivi parametri se il paziente è maggiorenne. (\it{creazione di istanza})
+\end{itemize}\\
+\bottomrule
+\end{tabularx}
+\medskip
+
+\begin{tabularx}{\columnwidth}{cX}
+\toprule
+\textsc{Contratto 13}:& \bf{login}\\
+\midrule
+\it{Operazione}: & 	\tt{login(userName, userPassword)}\\
+\it{Use Case}: &	Accedere al sistema.\\
+\it{Pre-condizioni}: &  Nessuna\\
+\it{Post-condizioni}: & \begin{itemize}
+\item È stata creata un’istanza $g$ della classe Guest (\it{creazione di istanza}). 
+\item Viene settato lo stato di questa classe come $g.isPatientMinor$ o in 
+	$g.isPatientMajor$ a seconda che il paziente sia minorenne o maggiorenne.
+\item È settato l'attributo $g.logged$ a $true$ se il paziente è maggiorenne 
+	($g.isPatientMajor$) e se l'autenticazione è avvenuta con successo
+\end{itemize}\\
+\bottomrule
+\end{tabularx}
+\medskip
+
+
+\begin{tabularx}{\columnwidth}{cX}
+\toprule
+\textsc{Contratto 14}:& \bf{fetchReservation}\\
+\midrule
+\it{Operazione}: & 	\tt{fetchReservation()}\\
+\it{Use Case}: &	Visualizzare lo storico delle prenotazioni\\
+\it{Pre-condizioni}: &  Il paziente è stato autenticato dal sistema\\
+\it{Post-condizioni}: & \begin{itemize}
+\item Sono ottenute le istanze delle prenotazioni $reserv[]$ di visita in 
+	$patient.reservations$ (\it{modifica di attributo} ed \it{associazione
+	formata})
+\end{itemize}\\
+\bottomrule
+\end{tabularx}
+\medskip
+
+\begin{tabularx}{\columnwidth}{cX}
+\toprule
+\textsc{Contratto 15}:& \bf{fetchReport}\\
+\midrule
+\it{Operazione}: & 	\tt{fetchReport(reservation)}\\
+\it{Use Case}: &	Visualizzare lo storico delle prenotazioni\\
+\it{Pre-condizioni}: &  Il paziente è stato autenticato dal sistema ed ha richiesto
+di ottenere le prenotazioni.\\
+\it{Post-condizioni}: & \begin{itemize}
+\item Ottiene da $reservation$ il referto nell'attributo $reservation.report$
+\end{itemize}\\
+\bottomrule
+\end{tabularx}
+\medskip
+
+
+\begin{tabularx}{\columnwidth}{cX}
+\toprule
+\textsc{Contratto 16}:& \bf{tutorCredentials}\\
+\midrule
+\it{Operazione}: & 	\tt{tutorCredentials( tutorName, tutorPassword)}\\
+\it{Use Case}: &	Contattare l’amministratore, Effettuare una prenotazione\\
+\it{Pre-condizioni}: &  L'utente accede in favore di un paziente minorenne.\\
+\it{Post-condizioni}: & \begin{itemize}
+\item Si associa al Guest $g$ corrente nell'attributo $tutor$ l'istanza di tutore
+	con le credenziali indicate (\it{associazione formata}).
+\end{itemize}\\
+\bottomrule
+\end{tabularx}
+\medskip
+
+\begin{tabularx}{\columnwidth}{cX}
+\toprule
+\textsc{Contratto 17}:& \bf{retireReservation}\\
+\midrule
+\it{Operazione}: & 	\tt{retireReservation(res)}\\
+\it{Use Case}: &	Contattare l'amministratore\\
+\it{Pre-condizioni}: &  L'Utente è loggato nel sistema ed ha in precedenza
+			effettuato una prenotazione\\
+\it{Post-condizioni}: & \begin{itemize}
+\item È creata una nuova istanza di Messagggio $msg$ all'interno del sistema
+	(\it{creazione di istanza})
+\item È settata la tipologia di richiesta $msg.kind$ a $revoke$ (\it{modifica di
+	attributo})
+\item È associato al messaggio $msg$ la Prenotazione $res$ da revocare
+	(\it{associazione formata})
+\item È associato al messaggio $msg$ l'amministratore tramite $msg.destinatario = res.sala.amministratore$
+	(\it{associazione formata})
+\item È associato al messaggio $msg$ l'utente $patient$ che ne ha fatto richiesta
+	nell'attributo $msg.patient$ (\it{asociazione formata})
+\end{itemize}\\
+\bottomrule
+\end{tabularx}
+\medskip
+
+\begin{tabularx}{\columnwidth}{cX}
+\toprule
+\textsc{Contratto 18}:& \bf{deferReservation}\\
+\midrule
+\it{Operazione}: & 	\tt{deferReservation(res)}\\
+\it{Use Case}: &	Contattare l'amministratore\\
+\it{Pre-condizioni}: &  L'Utente è loggato nel sistema ed ha in precedenza
+			effettuato una prenotazione\\
+\it{Post-condizioni}: & \begin{itemize}
+\item È creata una nuova istanza di Messagggio $msg$ all'interno del sistema
+	(\it{creazione di istanza})
+\item È settata la tipologia di richiesta $msg.kind$ a $defer$ (\it{modifica di
+	attributo})
+\item È associato al messaggio $msg$ la Prenotazione $res$ da posticipare
+	(\it{associazione formata})
+\item È associato al messaggio $msg$ l'amministratore tramite $msg.destinatario = res.sala.amministratore$
+	(\it{associazione formata})
+\item È associato al messaggio $msg$ l'utente $patient$ che ne ha fatto richiesta
+	nell'attributo $msg.patient$ (\it{asociazione formata})
+\end{itemize}\\
+\bottomrule
+\end{tabularx}
+\medskip
+
+
+\begin{tabularx}{\columnwidth}{cX}
+\toprule
+\textsc{Contratto 19}:& \bf{bindTutorForPatient}\\
+\midrule
+\it{Operazione}: & 	\tt{bindTutorForPatient(tutorName, tutorPassword)}\\
+\it{Use Case}: &	Registrare il paziente\\
+\it{Pre-condizioni}: &  Si richiede la registrazione di un paziente è minorenne\\
+\it{Post-condizioni}: & \begin{itemize}
+\item Viene inserito un nuovo paziente nel sistema se la richiesta ha successo, 
+	creando l'istanza $patient$ (\it{creazione di istanza}).
+\item A $patient$ vengono associati i parametri forniti precedentemente da
+	registerNewPatient (\it{associazione formata}).
+\item Viene associato il $tutor$ indicato da $tutorName$ e $tutorPassword$ 
+	al $patient$ nell'attributo $patient.tutor$ (\it{associazione formata})
+\end{itemize}\\
+\bottomrule
+\end{tabularx}
+\medskip
+
+\begin{tabularx}{\columnwidth}{cX}
+\toprule
+\textsc{Contratto 20}:& \bf{printOnSupport}\\
+\midrule
+\it{Operazione}: & 	\tt{printOnSupport(element, givenSupport)}\\
+\it{Use Case}: &	Visualizzare lo storico delle prenotazioni\\
+\it{Pre-condizioni}: &  L'utente è autenticato all'interno del sistema e sono 
+			presenti delle prenotazione o dei referti ad esse
+			associate\\
+\it{Post-condizioni}: & \begin{itemize}
+\item Viene richiesto al sistema di stampare il dato referto o la data 
+	prenotazione, sul supporto richiesto
+\end{itemize}\\
+\bottomrule
+\end{tabularx}
+\medskip
+
+
+\begin{tabularx}{\columnwidth}{cX}
+\toprule
+\textsc{Contratto 21}:& \bf{reserveVisit}\\
+\midrule
+\it{Operazione}: & 	\tt{reserveVisit(description, admin)}\\
+\it{Use Case}: &	Effettuare una prenotazione\\
+\it{Pre-condizioni}: &  Il paziente è autenticato dal sistema\\
+\it{Post-condizioni}: & \begin{itemize}
+\item È creata una nuova istanza di Messaggio $msg$ all'interno del sistema
+	(\it{creazione di istanza})
+\item È settata la tipologia di richiesta $msg.kind$ a $reserve$ (\it{modifica di
+	attributo})
+\item È associato al messaggio $msg$ l'utente $patient$ che ne ha fatto richiesta
+	nell'attributo $msg.patient$ (\it{associazione formata})
+\item È associata al messaggio $msg$ una descrizione $description$ sulla richiesta 
+	della visita nell'attributo $msg.content$ (\it{modifica di attributo}).
+\item È associato l'amministratore all'interno del messaggio nel campo destinatario:
+	$msg.destinatario = admin$
+\end{itemize}\\
+\bottomrule
+\end{tabularx}
+\medskip
+
+\begin{tabularx}{\columnwidth}{cX}
+\toprule
+\textsc{Contratto 22}:&	\bf{registerNewPatientFromTutor}\\
+\midrule
+\it{Operazione}: & 	\tt{registerNewPatientFromTutor( tutorName, tutorPass)}\\
+\it{Use Case}: &	\tt{Registrare paziente}\\
+\it{Pre-condizioni}: &
+il paziente è presente nel sistema come tutore, ma non come Paziente.\\
+\it{Post-condizioni}: & \begin{itemize}
+\item È inserito un nuovo paziente nel sistema (una volta che la richiesta è
+	stata accettata), creando l'elemento $patient$ con i parametri forniti 
+	dalla registerNewPatientFromTutor.
+\end{itemize}\\
+\bottomrule
+\end{tabularx}
+\medskip
+
+\begin{tabularx}{\columnwidth}{cX}
+\toprule
+\textsc{Contratto 23}:&	\bf{registerTutor}\\
+\midrule
+\it{Operazione}: & 	\tt{RegisterTutor( tutorName, tutorPass)}\\
+\it{Use Case}: &	\tt{Registrare paziente}\\
+\it{Pre-condizioni}: & Nessuna\\
+\it{Post-condizioni}: & Viene inserito un nuovo tutor nel sistema, identificato
+ dai parametri forniti. Un tutore potrebbe non essere necessariamente un utente 
+ del sistema.\\
+\bottomrule
+\end{tabularx}
+\medskip
+
+
+
+\subsection{Ampliamenti al modello di dominio suggeriti}
+\label{subsubsec:aamddomsugg_admin}
+%itemize
+\item È necessario creare una nuova classe \texttt{Slot} che 
+contenga gli attributi di \textsc{Data}, \textsc{Ora} e
+\textsc{Stanza}.
+\item È necessario inserire un attributo \textsc{Prenotazione} all'interno
+della classe \texttt{Messaggio}
+\item È necessario distinguere i messaggi come \texttt{MPaziente} e \texttt{MAmministratore},
+	con \texttt{Messaggio} come loro generalizzazione.
+\item È necessario inserire una nuova astrazione tra \it{Paziente} ed \it{Amministratore}
+detta \tt{Guest}
+.%
+
+Ci riserviamo di effettuare queste modifiche nella fase successiva, in quanto
+in quel momento, ci appresteremo ad effettuare ulteriori modifiche al modello
+di dominio.
+
+\subsection{Definizione delle priorità dei casi d'uso}
+Come richiesto dal processo XP, dopo aver attentamente valutato la difficoltà
+dei vari casi d'uso, possiamo evidenziare le priorità di implementazione.
+
+%itemize
+\item Come Amministratore, voglio ricevere le richieste di visita in modo da
+poter notificare la prenotazione riservata per un paziente ed associarvi
+un grado di priorita.
+
+\medskip priorità 10
+\bigskip
+
+\item Come Utente, voglio scegliere un reparto in modo da prenotare una
+visita associata a quel tipo di servizio medico.
+
+\medskip priorità 9
+\bigskip
+
+\item Come Amministratore, voglio visualizzare le prenotazioni in modo da
+decidere in quale data effettuare le prenotazioni
+
+\medskip priorità 8
+\bigskip
+
+\item Come Utente, voglio essere in grado di registrare me stesso come Paziente
+Maggiorenne o come Tutore.
+
+\medskip priorità 6
+\bigskip
+
+\item Come Utente, voglio essere in grado di visualizzare le mie prenotazioni
+ed eventualmente i referti associati.
+
+\medskip priorità 6
+
+\item Come Tutore, voglio essere in grado di registrare un paziente minorenne
+di cui sono responsabile.
+
+\medskip priorità 5
+\bigskip
+
+\item Come Amministratore, voglio gestire le prenotazioni in modo da associarvi
+o/e modificarvi i referti
+
+\medskip priorità 5
+\bigskip
+ 
+\item Come Amministratore, voglio visualizzare le prenotazioni in modo da
+ottenere l'insieme delle prenotazioni relativo ad un paziente, ed eventualmente
+i referti.
+
+\medskip priorità 5
+\bigskip
+
+\item Come Amministratore, voglio poter modificare i reperti medici del paziente.
+
+\medskip priorità 5
+
+\item Come Utente, voglio essere in grado di effettuare l'eliminazione della
+prenotazione e di riceverne conferma.
+
+\medskip priorità 5
+\bigskip
+
+\item Come Utente, voglio essere in grado di effettuare uno spostamento della
+prenotazione gia fissata.
+
+
+\medskip priorità 5
+\bigskip
+
+\item Come Paziente maggiorenne e tutore, voglio ottenere l'autenticazione
+allo scopo di ottenere per me o per il mio tutelato i servizi del sistema.
+
+\medskip priorità 4
+\bigskip
+
+\item Come Utente, voglio ricevere le notifiche del sistema sulle operazioni di
+cancellazione, spostamento, prenotazione richieste all'amministratore.
+
+\medskip priorità 4
+.%

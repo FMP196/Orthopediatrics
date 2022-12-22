@@ -1,0 +1,40 @@
+\part{Documento Quarto}
+\chapter{Sviluppo I}\label{cha:pds}
+\minitoc\mtcskip
+\section{Premessa}
+In questo documento, cerchiamo di apportare un'ultima e finale modifica al 
+modello di dominio, allo scopo di rendere possibile la creazione dei seguenti
+documenti, che portano globalmente alla prima stesura di codice
+
+%itemize
+\diam \it{Raffinamento del modello di dominio}
+
+Questo documento è alla base delle documentazioni che verranno fornite: si vogliono
+applicare a quest'ultimo alcuni \it{Design Pattern}(s), allo scopo di prevenire
+successive problematiche di implementazione (v. SottoSottosezione 
+\vref{subsubsec:applydesignpatt}).
+In seguito, si procederà con l'assegnamento dei metodi alle rispettive classi
+tramite l'applicazione dei pattern GRASP (v. Sezione \vref{sec:raffmoddom}).
+In questa fase sono già contemplate le considerazioni che emergono dai due punti
+successivi.
+\medskip
+
+\diam \it{Analisi del database}
+
+In base al raffinamento del modello di dominio sopra proposto, si effettua
+una definizione di un modello ER per la nostra base di dati, e conseguentemente
+si produce il codice SQL relativo (v. Capitolo \vref{cha:progdbasdata}).
+Tramite l'analisi del database introduciamo per la
+prima volta il \it{framework} EJP all'interno dei nostri elementi di sviluppo,
+in base alla quale effettuare il mapping tra modello ER (\it{Entity-Relationship}) 
+ed OO (\it{Object Oriented}). In base a queste considerazioni, riteniamo
+conseguentemente inutile lo sviluppo di un server come proposto nella fase
+precedente (v. Sezione \vref{sec:serveranalisys}), in quanto già questo \it{framework }
+risolve a nostro parere, moltissimi problemi di implementazione.
+(v. Sezione \vref{sec:dbutilizzejp}).
+\medskip
+
+
+
+\medskip
+.%

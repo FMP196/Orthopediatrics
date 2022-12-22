@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="836" version="1.1" width="926" xmlns="http://www.w3.org/2000/svg">
+<text font-family="Dialog" font-size="13" x="108" y="339">
+Utente</text>
+<ellipse cx="129" cy="287" fill="#000000" rx="8.0" ry="7.5" stroke="#000000" stroke-width="1"/>
+<ellipse cx="129" cy="287" fill="#ffffff" rx="7.0" ry="6.5" stroke="#ffffff" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="129" x2="129" y1="295" y2="310"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="119" x2="139" y1="300" y2="300"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="129" x2="124" y1="310" y2="325"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="129" x2="134" y1="310" y2="325"/>
+<ellipse cx="320" cy="151" fill="#000000" rx="98.0" ry="41.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="320" cy="151" fill="#ffffff" rx="97.0" ry="40.0" stroke="#ffffff" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="249" y="139">
+registrazione paziente</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="195" x="223" y="150"/>
+<text font-family="Dialog" font-size="13" x="248" y="164">
+EP: associo un tutore</text>
+<ellipse cx="366" cy="757" fill="#000000" rx="64.0" ry="23.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="366" cy="757" fill="#ffffff" rx="63.0" ry="22.0" stroke="#ffffff" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="317" y="758">
+gestione referti</text>
+<text font-family="Dialog" font-size="13" x="154" y="731">
+amministratore</text>
+<ellipse cx="203" cy="679" fill="#000000" rx="8.0" ry="7.5" stroke="#000000" stroke-width="1"/>
+<ellipse cx="203" cy="679" fill="#ffffff" rx="7.0" ry="6.5" stroke="#ffffff" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="203" x2="203" y1="687" y2="702"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="193" x2="213" y1="692" y2="692"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="203" x2="198" y1="702" y2="717"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="203" x2="208" y1="702" y2="717"/>
+<ellipse cx="778" cy="559" fill="#000000" rx="76.0" ry="25.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="778" cy="559" fill="#ffffff" rx="75.0" ry="24.0" stroke="#ffffff" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="717" y="560">
+prenotazione visita</text>
+<ellipse cx="654" cy="735" fill="#000000" rx="112.0" ry="33.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="654" cy="735" fill="#ffffff" rx="111.0" ry="32.0" stroke="#ffffff" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="555" y="736">
+autenticazione amministratore</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="428" x2="433" y1="751" y2="751"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="438" x2="443" y1="751" y2="750"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="448" x2="453" y1="750" y2="750"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="458" x2="463" y1="749" y2="749"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="468" x2="473" y1="748" y2="748"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="478" x2="483" y1="748" y2="747"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="488" x2="493" y1="747" y2="746"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="498" x2="503" y1="746" y2="746"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="508" x2="513" y1="745" y2="745"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="518" x2="523" y1="745" y2="744"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="528" x2="533" y1="744" y2="743"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="538" x2="543" y1="743" y2="743"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="533" x2="545" y1="749" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="532" x2="545" y1="735" y2="742"/>
+<text font-family="Dialog" font-size="13" x="441" y="737">
+&lt;&lt;include&gt;&gt;</text>
+<ellipse cx="411" cy="666" fill="#000000" rx="117.0" ry="36.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="411" cy="666" fill="#ffffff" rx="116.0" ry="35.0" stroke="#ffffff" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="307" y="667">
+gestione  prenotazioni di reparto</text>
+<polyline fill="none" points="296,673 212,679" stroke="#333399" stroke-width="1"/>
+<polyline fill="none" points="304,751 208,742" stroke="#333399" stroke-width="1"/>
+<polyline fill="none" points="270,186 136,282" stroke="#333399" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="497" x2="501" y1="690" y2="691"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="506" x2="511" y1="692" y2="694"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="516" x2="521" y1="695" y2="696"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="526" x2="531" y1="698" y2="699"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="535" x2="540" y1="700" y2="702"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="545" x2="550" y1="703" y2="704"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="555" x2="560" y1="706" y2="707"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="565" x2="570" y1="708" y2="710"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="559" x2="573" y1="714" y2="711"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="563" x2="573" y1="701" y2="711"/>
+<text font-family="Dialog" font-size="13" x="528" y="681">
+&lt;&lt;include&gt;&gt;</text>
+<ellipse cx="393" cy="336" fill="#000000" rx="115.0" ry="34.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="393" cy="336" fill="#ffffff" rx="114.0" ry="33.0" stroke="#ffffff" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="293" y="337">
+visualizz. prenotazioni paziente</text>
+<polyline fill="none" points="289,321 139,300" stroke="#333399" stroke-width="1"/>
+<ellipse cx="457" cy="454" fill="#000000" rx="147.0" ry="72.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="457" cy="454" fill="#ffffff" rx="146.0" ry="71.0" stroke="#ffffff" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="394" y="415">
+spedisci messaggio</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="270" x="322" y="426"/>
+<text font-family="Dialog" font-size="13" x="361" y="440">
+EP: convalida la prenotazione</text>
+<text font-family="Dialog" font-size="13" x="361" y="458">
+EP: annulla prenotazione</text>
+<text font-family="Dialog" font-size="13" x="361" y="476">
+EP: posticipa prenotazione</text>
+<text font-family="Dialog" font-size="13" x="361" y="494">
+EP: prenota visita</text>
+<polyline fill="none" points="334,414 134,350" stroke="#333399" stroke-width="1"/>
+<polyline fill="none" points="386,517 210,674" stroke="#333399" stroke-width="1"/>
+<polyline fill="none" points="572,757 342,822 208,742" stroke="#333399" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="18" y="459">
+Utente Maggiorenne</text>
+<ellipse cx="83" cy="407" fill="#000000" rx="8.0" ry="7.5" stroke="#000000" stroke-width="1"/>
+<ellipse cx="83" cy="407" fill="#ffffff" rx="7.0" ry="6.5" stroke="#ffffff" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="83" x2="83" y1="415" y2="430"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="73" x2="93" y1="420" y2="420"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="83" x2="78" y1="430" y2="445"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="83" x2="88" y1="430" y2="445"/>
+<text font-family="Dialog" font-size="13" x="173" y="459">
+Tutore</text>
+<ellipse cx="193" cy="407" fill="#000000" rx="8.0" ry="7.5" stroke="#000000" stroke-width="1"/>
+<ellipse cx="193" cy="407" fill="#ffffff" rx="7.0" ry="6.5" stroke="#ffffff" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="193" x2="193" y1="415" y2="430"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="183" x2="203" y1="420" y2="420"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="193" x2="188" y1="430" y2="445"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="193" x2="198" y1="430" y2="445"/>
+<polyline fill="none" points="80,399 78,382 134,382 134,350" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="134,350 141,362 127,362" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="134,350 141,362 127,362" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="190,399 190,382 134,382 134,350" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="134,350 141,362 127,362" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="134,350 141,362 127,362" stroke="#000000" stroke-width="1"/>
+<ellipse cx="615" cy="65" fill="#000000" rx="121.0" ry="35.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="615" cy="65" fill="#ffffff" rx="120.0" ry="34.0" stroke="#ffffff" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="507" y="66">
+registrazione paziente minorenne</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="529" x2="525" y1="89" y2="90"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="520" x2="515" y1="91" y2="93"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="510" x2="505" y1="94" y2="96"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="501" x2="496" y1="97" y2="98"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="491" x2="486" y1="100" y2="101"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="481" x2="477" y1="103" y2="104"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="472" x2="467" y1="105" y2="107"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="462" x2="457" y1="108" y2="110"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="452" x2="448" y1="111" y2="112"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="443" x2="438" y1="114" y2="115"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="433" x2="428" y1="117" y2="118"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="424" x2="419" y1="119" y2="121"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="414" x2="409" y1="122" y2="124"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="404" x2="399" y1="125" y2="127"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="408" x2="399" y1="116" y2="127"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="412" x2="399" y1="130" y2="127"/>
+<text font-family="Dialog" font-size="13" x="459" y="125">
+&lt;&lt;extend&gt;&gt;</text>
+<ellipse cx="465" cy="106" fill="#000000" rx="0.5" ry="0.5" stroke="#000000" stroke-width="1"/>
+<ellipse cx="466" cy="107" fill="#ffffff" rx="-0.5" ry="-0.5" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="#ffffff" points="302,14 473,14 483,24 483,72 302,72 302,14" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="302,14 473,14 483,24 483,72 302,72 302,14" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="473,14 483,24 473,24 473,14" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="473,14 483,24 473,24 473,14" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="305" y="30">
+Condition: {Un tutore sta </text>
+<text font-family="Dialog" font-size="13" x="305" y="47">
+immettendo le credenziali</text>
+<text font-family="Dialog" font-size="13" x="305" y="64">
+di un utente da tutelare}</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="465" x2="465" y1="73" y2="78"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="465" x2="465" y1="83" y2="88"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="465" x2="465" y1="93" y2="98"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="465" x2="465" y1="103" y2="106"/>
+<polygon fill="#ffffff" points="14,502 223,502 233,512 233,613 14,613 14,502" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="14,502 223,502 233,512 233,613 14,613 14,502" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="223,502 233,512 223,512 223,502" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="223,502 233,512 223,512 223,502" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="17" y="518">
+Un tutore può accedere</text>
+<text font-family="Dialog" font-size="13" x="17" y="535">
+al sistema usando le</text>
+<text font-family="Dialog" font-size="13" x="17" y="552">
+proprie credenziali e quelle</text>
+<text font-family="Dialog" font-size="13" x="17" y="569">
+di un suo tutelato per effettuare</text>
+<text font-family="Dialog" font-size="13" x="17" y="586">
+azioni in favore di quest'ultimo </text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="188" x2="188" y1="502" y2="497"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="188" x2="188" y1="492" y2="487"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="188" x2="188" y1="482" y2="477"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="188" x2="188" y1="472" y2="470"/>
+<ellipse cx="592" cy="628" fill="#000000" rx="58.0" ry="22.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="592" cy="628" fill="#ffffff" rx="57.0" ry="21.0" stroke="#ffffff" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="550" y="629">
+notifica visita</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="575" x2="572" y1="606" y2="603"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="569" x2="566" y1="599" y2="595"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="563" x2="560" y1="591" y2="587"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="557" x2="554" y1="583" y2="579"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="551" x2="548" y1="575" y2="571"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="545" x2="542" y1="567" y2="563"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="538" x2="535" y1="559" y2="555"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="532" x2="529" y1="551" y2="547"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="526" x2="523" y1="543" y2="539"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="520" x2="517" y1="535" y2="531"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="514" x2="511" y1="527" y2="523"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="521" x2="509" y1="526" y2="521"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="510" x2="509" y1="534" y2="521"/>
+<text font-family="Dialog" font-size="13" x="452" y="578">
+&lt;&lt;extend&gt;&gt;</text>
+<ellipse cx="544" cy="563" fill="#000000" rx="0.5" ry="0.5" stroke="#000000" stroke-width="1"/>
+<ellipse cx="545" cy="564" fill="#ffffff" rx="-0.5" ry="-0.5" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="#ffffff" points="654,598 819,598 829,608 829,671 654,671 654,598" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="654,598 819,598 829,608 829,671 654,671 654,598" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="819,598 829,608 819,608 819,598" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="819,598 829,608 819,608 819,598" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="657" y="614">
+Condition: {sono un</text>
+<text font-family="Dialog" font-size="13" x="657" y="631">
+amministratore e sto</text>
+<text font-family="Dialog" font-size="13" x="657" y="648">
+convalidando la richiesta</text>
+<text font-family="Dialog" font-size="13" x="657" y="665">
+di prenotazione}</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="654" x2="650" y1="598" y2="597"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="645" x2="640" y1="596" y2="594"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="635" x2="631" y1="593" y2="591"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="626" x2="621" y1="590" y2="588"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="616" x2="611" y1="587" y2="585"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="607" x2="602" y1="584" y2="582"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="597" x2="592" y1="581" y2="579"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="588" x2="583" y1="578" y2="576"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="578" x2="573" y1="575" y2="573"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="568" x2="564" y1="572" y2="570"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="559" x2="554" y1="569" y2="567"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="549" x2="545" y1="566" y2="564"/>
+<ellipse cx="764" cy="413" fill="#000000" rx="102.0" ry="31.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="764" cy="413" fill="#ffffff" rx="101.0" ry="30.0" stroke="#ffffff" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="676" y="414">
+annullamento prenotazione</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="669" x2="664" y1="424" y2="424"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="659" x2="654" y1="425" y2="426"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="649" x2="644" y1="426" y2="427"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="639" x2="634" y1="428" y2="428"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="629" x2="624" y1="429" y2="430"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="619" x2="614" y1="431" y2="431"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="609" x2="604" y1="432" y2="433"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="599" x2="598" y1="433" y2="434"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="608" x2="598" y1="425" y2="434"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="610" x2="598" y1="439" y2="434"/>
+<text font-family="Dialog" font-size="13" x="579" y="399">
+&lt;&lt;extend&gt;&gt;</text>
+<ellipse cx="634" cy="427" fill="#000000" rx="0.5" ry="0.5" stroke="#000000" stroke-width="1"/>
+<ellipse cx="635" cy="428" fill="#ffffff" rx="-0.5" ry="-0.5" stroke="#ffffff" stroke-width="1"/>
+<ellipse cx="669" cy="266" fill="#000000" rx="87.0" ry="28.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="669" cy="266" fill="#ffffff" rx="86.0" ry="27.0" stroke="#ffffff" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="596" y="267">
+posticipo prenotazione</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="638" x2="635" y1="292" y2="295"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="631" x2="627" y1="298" y2="301"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="623" x2="620" y1="305" y2="308"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="616" x2="612" y1="311" y2="315"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="608" x2="605" y1="318" y2="321"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="601" x2="597" y1="325" y2="328"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="593" x2="590" y1="331" y2="335"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="586" x2="582" y1="338" y2="341"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="578" x2="575" y1="344" y2="348"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="571" x2="567" y1="351" y2="354"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="563" x2="560" y1="358" y2="361"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="556" x2="552" y1="364" y2="368"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="548" x2="545" y1="371" y2="374"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="541" x2="537" y1="378" y2="381"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="533" x2="530" y1="384" y2="388"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="531" x2="527" y1="376" y2="390"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="540" x2="527" y1="387" y2="390"/>
+<text font-family="Dialog" font-size="13" x="491" y="366">
+&lt;&lt;extend&gt;&gt;</text>
+<ellipse cx="583" cy="341" fill="#000000" rx="0.5" ry="0.5" stroke="#000000" stroke-width="1"/>
+<ellipse cx="584" cy="342" fill="#ffffff" rx="-0.5" ry="-0.5" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="#ffffff" points="670,318 852,318 862,328 862,374 670,374 670,318" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="670,318 852,318 862,328 862,374 670,374 670,318" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="852,318 862,328 852,328 852,318" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="852,318 862,328 852,328 852,318" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="673" y="334">
+Condition: {un utente </text>
+<text font-family="Dialog" font-size="13" x="673" y="351">
+autenticato vuole annullare</text>
+<text font-family="Dialog" font-size="13" x="673" y="368">
+una prenotazione}</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="670" x2="668" y1="375" y2="379"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="665" x2="662" y1="383" y2="387"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="659" x2="656" y1="391" y2="395"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="654" x2="651" y1="400" y2="404"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="648" x2="645" y1="408" y2="412"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="642" x2="639" y1="416" y2="421"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="637" x2="635" y1="425" y2="427"/>
+<polygon fill="#ffffff" points="550,174 732,174 742,184 742,232 550,232 550,174" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="550,174 732,174 742,184 742,232 550,232 550,174" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="732,174 742,184 732,184 732,174" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="732,174 742,184 732,184 732,174" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="553" y="190">
+Condition: {un utente </text>
+<text font-family="Dialog" font-size="13" x="553" y="207">
+autenticato vuole posticiare</text>
+<text font-family="Dialog" font-size="13" x="553" y="224">
+una prenotazione}</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="583" x2="583" y1="233" y2="238"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="583" x2="583" y1="243" y2="248"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="583" x2="583" y1="253" y2="258"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="583" x2="583" y1="263" y2="268"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="583" x2="583" y1="273" y2="278"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="583" x2="583" y1="283" y2="288"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="583" x2="583" y1="293" y2="298"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="583" x2="583" y1="303" y2="308"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="583" x2="583" y1="313" y2="318"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="583" x2="583" y1="323" y2="328"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="583" x2="583" y1="333" y2="338"/>
+<ellipse cx="441" cy="233" fill="#000000" rx="83.0" ry="27.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="441" cy="233" fill="#ffffff" rx="82.0" ry="26.0" stroke="#ffffff" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="374" y="234">
+Autentizaione utente</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="408" x2="410" y1="302" y2="298"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="412" x2="414" y1="293" y2="289"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="416" x2="418" y1="284" y2="280"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="420" x2="422" y1="275" y2="270"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="425" x2="427" y1="266" y2="261"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="429" x2="428" y1="272" y2="259"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="416" x2="428" y1="266" y2="259"/>
+<text font-family="Dialog" font-size="13" x="330" y="266">
+&lt;&lt;include&gt;&gt;</text>
+<polyline fill="none" points="138,287 368,245" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="718,470 901,470 911,480 911,528 718,528 718,470" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="718,470 901,470 911,480 911,528 718,528 718,470" stroke="#000000" stroke-width="1"/>
+<polygon fill="#b2b2b2" points="901,470 911,480 901,480 901,470" stroke="#b2b2b2" stroke-width="1"/>
+<polyline fill="none" points="901,470 911,480 901,480 901,470" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="721" y="486">
+Condition: {un utente</text>
+<text font-family="Dialog" font-size="13" x="721" y="503">
+autenticato vuole effettuare</text>
+<text font-family="Dialog" font-size="13" x="721" y="520">
+una prenotazione}</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="724" x2="720" y1="541" y2="540"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="715" x2="710" y1="538" y2="537"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="705" x2="701" y1="535" y2="534"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="696" x2="691" y1="532" y2="530"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="686" x2="682" y1="529" y2="527"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="677" x2="672" y1="526" y2="524"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="667" x2="662" y1="523" y2="521"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="658" x2="653" y1="519" y2="518"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="648" x2="643" y1="516" y2="515"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="639" x2="634" y1="513" y2="511"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="629" x2="624" y1="510" y2="508"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="620" x2="615" y1="507" y2="505"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="610" x2="605" y1="504" y2="502"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="600" x2="596" y1="500" y2="499"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="591" x2="586" y1="497" y2="496"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="581" x2="579" y1="494" y2="493"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="592" x2="579" y1="490" y2="493"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="588" x2="579" y1="503" y2="493"/>
+<text font-family="Dialog" font-size="13" x="619" y="480">
+&lt;&lt;extend&gt;&gt;</text>
+</svg>

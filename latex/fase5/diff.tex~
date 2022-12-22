@@ -1,0 +1,208 @@
+\section{Differenze di implementazione}
+
+
+\subsection{Database}
+
+Rispetto al modello iniziale del database, sono state effettuate alcune
+piccole modifiche riguardanti la sua struttura interna. Queste modifiche
+sono state necessarie in quanto il framework utilizzato \textbf{EJP}
+(\emph{Easy Java Persistence}) ``obbliga'' ad esempio, in un certo
+senso, la strutturazione della progettazione delle classi del database.
+Tuttavia le piccole modifiche applicate sono compensate da una potenza
+di espressione e semplicità di utilizzo dello stesso per raggiungere
+gli obbiettivi prefissati.
+
+In seguito ad alcuni problemi riscontrati nello stesso framework,
+sono state rimosse tutte le referenze dal database e, per semplificare
+ulteriormente il mapping delle classi all'interno del database, sono
+stati modificati alcuni campi nelle singole relazioni.
+
+\texttt{}%
+\shadowbox{\begin{minipage}[t]{1\columnwidth}%
+\texttt{CREATE TABLE amministratore (}
+
+\texttt{nomeutente text PRIMARY KEY,}
+
+\texttt{password text NOT NULL,}
+
+\texttt{reparto text NOT NULL,}
+
+\texttt{unique (nomeutente, password)}
+
+\noindent \texttt{);}%
+\end{minipage}}
+
+~
+
+\noindent \texttt{}%
+\shadowbox{\begin{minipage}[t]{1\columnwidth}%
+\noindent \texttt{CREATE TABLE paziente ( }
+
+\texttt{nomeutente character(16) PRIMARY KEY, }
+
+\texttt{password text NOT NULL, }
+
+\texttt{nome text NOT NULL, }
+
+\texttt{cognome text NOT NULL, }
+
+\texttt{indirizzo text NOT NULL, }
+
+\texttt{telefono text NOT NULL, }
+
+\texttt{email text NOT NULL, }
+
+\texttt{nascita date NOT NULL, }
+
+\texttt{tutore character(16), }
+
+\texttt{unique (nomeutente, password, nome, cognome, indirizzo, telefono,
+email, nascita, tutore)}
+
+\noindent \texttt{);}%
+\end{minipage}}
+
+~\\
+\texttt{}%
+\shadowbox{\begin{minipage}[t]{1\columnwidth}%
+\texttt{CREATE TABLE tutore ( }
+
+\texttt{nomeutente character(16) PRIMARY KEY, }
+
+\texttt{password text NOT NULL, }
+
+\texttt{nome text NOT NULL, }
+
+\texttt{cognome text NOT NULL, }
+
+\texttt{indirizzo text NOT NULL, }
+
+\texttt{telefono text NOT NULL, }
+
+\texttt{email text NOT NULL, }
+
+\texttt{nascita date NOT NULL, }
+
+\texttt{unique (nomeutente, password, nome, cognome, indirizzo, telefono,
+email, nascita)}
+
+\noindent \texttt{);}%
+\end{minipage}}
+
+~\\
+\texttt{}%
+\shadowbox{\begin{minipage}[t]{1\columnwidth}%
+\texttt{CREATE TABLE prenotazione ( }
+
+\texttt{id integer PRIMARY KEY, }
+
+\texttt{paziente character(16) NOT NULL, }
+
+\texttt{priorita integer NOT NULL, }
+
+\texttt{ora integer NOT NULL, }
+
+\texttt{data date NOT NULL, }
+
+\texttt{sala integer NOT NULL, }
+
+\texttt{reparto integer NOT NULL, }
+
+\texttt{unique (id, paziente, priorita, ora, data, sala, reparto)}
+
+\noindent \texttt{);}%
+\end{minipage}}
+
+~\\
+\texttt{}%
+\shadowbox{\begin{minipage}[t]{1\columnwidth}%
+\texttt{CREATE TABLE messaggio ( }
+
+\texttt{data date NOT NULL, }
+
+\texttt{orario text NOT NULL, }
+
+\texttt{mittente text NOT NULL, }
+
+\texttt{destinatario text NOT NULL, }
+
+\texttt{content text NOT NULL, }
+
+\texttt{tipo integer NOT NULL, }
+
+\texttt{prenotazione integer, }
+
+\texttt{unique (data, orario, mittente, destinatario, content, tipo,
+prenotazione)}
+
+\noindent \texttt{);}%
+\end{minipage}}
+
+~\\
+\texttt{}%
+\shadowbox{\begin{minipage}[t]{1\columnwidth}%
+\texttt{CREATE TABLE referto (}
+
+\texttt{id integer PRIMARY KEY,}
+
+\texttt{prenotazione integer NOT NULL,}
+
+\texttt{contenuto text NOT NULL,}
+
+\texttt{medico text NOT NULL,}
+
+\texttt{paziente text NOT NULL,}
+
+\texttt{unique (id, prenotazione, contenuto, medico, paziente)}
+
+\noindent \texttt{);}%
+\end{minipage}}
+
+~
+
+
+\subsection{Amministratore}
+
+Come stabilito con il cliente, esistono due amministratori predefiniti
+all'interno del sistema; siccome questi devono esistere sempre abbiamo
+deciso di creare due amministratori che vengono automaticamente inseriti
+all'interno del database durante la creazione dello stesso. Gli amministratori
+si distinguono come:
+\begin{itemize}
+\item Reparto di Ortopedia
+
+\begin{itemize}
+\item username:\emph{ }\textbf{\emph{admino}}
+\item password: \textbf{\emph{admino}}
+\end{itemize}
+\item Reparto di Pediatria
+
+\begin{itemize}
+\item username: \textbf{\emph{adminp}}
+\item password:\emph{ }\textbf{\emph{adminp}}
+\end{itemize}
+\end{itemize}
+Questi possono essere cambiati semplicemente effettuando un query
+al database (dall'amministratore del database) oppure l'amministratore
+può cambiare i propri dati di accesso da interfaccia grafica.
+
+
+\subsection{Modifica del modello di business}
+
+Rispetto al modello iniziale di progettazione delle classi, sono state
+effettuate alcune modifiche semplificando ulteriormente la struttura
+interna delle classi; queste modifiche (come detto in precedenza)
+sono una conseguenza dovuta in parte all'impiego del framework \textbf{\emph{EJP}},
+e in parte ad una scelta di progettazione, in quanto vengono divise
+le singole responsabilità delle classi. In dettaglio è voluto spostare
+le funzionalità contenute all'interno delle classi del modello di
+dominio (in particolare Paziente, Amministratore e Tutore) nelle classi
+\emph{``Creator}'' che caratterizzano il design pattern ``\emph{Abstract
+Factory}''.
+
+Inizialmente la gestione dei messaggi era di responsabilità di due
+classi distinte: \emph{MAmministratore} e \emph{MPaziente}, contenenti
+rispettivamente i messaggi diretti all'amministratore e al paziente.
+Si è voluto unificare tale modello in un unica classe \textbf{Messaggio}
+contenete i messaggi diretti ad entrambi gli utenti del sistema (Amministratore
+e Paziente), distinguendoli come \emph{mittente} e \emph{destinatario}.

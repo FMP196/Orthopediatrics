@@ -1,0 +1,160 @@
+\chapter{Revisioni delle stime precedenti}
+\minitoc\mtcskip
+
+\section{Ulteriore estensione dei Casi d'Uso}
+Facendo riferimento al Testo dei Casi d'Uso della Sottosezione \vref{subsec:usecasetext},
+dobbiamo sottolineare la necessità di effettuare delle estensioni al caso d'uso
+\textit{Registrare il paziente}. Per completezza, riportiamo qui l'intero testo
+del caso in questione con le modifiche apportate.
+
+
+\begin{description}
+\item[Nome del caso d'uso] Registrare il paziente
+\item[Attore primario]
+	L'utente (del sistema): il paziente maggiorenne od il tutore del paziente minorenne
+
+\item[Parti interessate ed interessi]
+	L'utente: vuole registrare o sé stesso, o il paziente minorenne di cui ha tutela
+
+\item[Pre-condizioni]
+	Nessuna
+
+\item[Garanzia di successo]
+	Il sistema visualizzerà all'utente un messaggio di avvenuta registrazione
+
+\item[Scenario principale di successo]
+
+\begin{enumerate}
+	\item L'utente sceglie l'opzione di registrazione
+	\item L'utente inserisce i dati del paziente che dovrà ricevere le cure
+	\item L'utente richiede la registrazione
+	\item L'utente riceve la notifica di avvenuta registrazione con una notifica tramite il sistema
+\end{enumerate}
+
+\item[Estensioni]
+\begin{description}
+	\item[Estensione A]
+	\medskip
+	
+	\begin{description}
+	\item[4] L'utente richiede la registrazione con successo in quanto è un paziente maggiorenne
+	\end{description}
+\end{description}
+
+
+\begin{description}
+	\item[Estensione B]
+	\medskip
+	
+	\begin{description}
+	\item[4] 
+	\begin{enumerate}
+		\item Il sistema richiede all'utente l'associazione delle credenziali del tutore, in quanto il paziente in fase di registrazione è minorenne
+		\item Il tutore inserisce le proprie credenziali
+		\item Il sistema conferma la presenza del tutore all'interno del sistema 
+		\item Il sistema effettua la registrazione del paziente minorenne e dell'associazione con il tutore utente del sistema
+	\end{enumerate}
+	\end{description}
+\end{description}
+
+\begin{description}
+	\item[Estensione C]
+	\medskip
+	
+	\begin{description}
+	\item[4] 
+	\medskip
+	
+	Il sistema informa l'utente della mancata registrazione del paziente, specificando quali siano i campi che sono stati ignorati in fase di registrazione
+	\end{description}
+\end{description}
+
+\begin{description}
+	\item[Estensione D]
+	\medskip
+	
+	\begin{description}
+	\item[4B (3)] 
+	\medskip
+	
+	\begin{enumerate}
+	\item Il sistema informa il tutore che lui stesso non esiste all'interno del sistema
+	\item Il tutore annulla la registrazione del minore 
+	\end{enumerate}
+	\end{description}
+
+\end{description}
+
+
+\begin{description}
+	\item[Estensione E]
+	\medskip
+	
+	\begin{description}
+	\item[2] 
+	\medskip
+	
+	\begin{enumerate}
+	\item In quanto il paziente in questione che sta effettuando la registrazione
+		è già presente all'interno del sistema come tutore (\textit{precondizione}),
+		ed è quindi maggiorenne, richiede di registrarsi come tutore
+		importando quei dati.
+	\item Si autentica come Tutore nel sistema
+	\item L'utente riceve una notifica di conferma dal sistema
+	\end{enumerate}
+	\end{description}
+
+\end{description}
+
+\begin{description}
+	\item[Estensione F]
+	\medskip
+	
+	\begin{description}
+	\item[B2] 
+	\medskip
+	
+	\begin{enumerate}
+	\item Il nuovo tutore inserisce le proprie credenziali, specificando che esiste
+		come Paziente Maggiorenne, autenticandosi come tale.
+	\item Il sistema conferma l'esistenza del Paziente Maggiorenne dandone
+		notifica
+	\item Il sistema crea un nuovo Tutore dalle credenziali del Paziente
+		Maggiorenne del quale si è comprovata l'esistenza
+	\item Il sistema conferma la registrazione del paziente minorenne
+		e vi associa il nuovo tutore
+	\end{enumerate}
+	\end{description}
+
+\end{description}
+
+\begin{description}
+	\item[Estensione G]
+	\medskip
+	
+	\begin{description}
+	\item[B2] 
+	\medskip
+	
+	\begin{enumerate}
+	\item Il nuovo tutore specifica che vuole essere registrato nel sistema
+	\item Il Tutore immette le sue informazioni all'interno del sistema
+	\item Il sistema conferma la presenza del nuovo tutore all'interno del sistema 
+	\item Il sistema effettua la registrazione del paziente minorenne e 
+		dell'associazione con il tutore utente del sistema
+	\end{enumerate}
+	\end{description}
+
+\end{description}
+\item[Requisiti non funzionali]
+\begin{itemize}
+\diam Il sistema informativo deve poter prevedere autentificazione per i vari
+	utenti e per l'amministratore, ed in più il paziente minorenne può accedere solamente mediante
+	la supervisione del tutore; è richiesta autenticazione  sia per il
+	paziente minorenne, sia per il tutore.
+\end{itemize}
+\end{description}
+\begin{center}
+\line(1,0){250}
+\end{center}
+

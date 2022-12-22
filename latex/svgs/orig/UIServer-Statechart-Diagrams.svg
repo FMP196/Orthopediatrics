@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="542" version="1.1" width="940" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#00ff" height="72" rx="16" ry="16" stroke="#00ff" stroke-width="1" width="224" x="94" y="96"/>
+<rect fill="#ffffff" height="72" rx="16" ry="16" stroke="#000000" stroke-width="1" width="224" x="94" y="96"/>
+<rect fill="#ffffff" height="70" rx="16" ry="16" stroke="#ffffff" stroke-width="1" width="222" x="95" y="97"/>
+<text font-family="Dialog" font-size="12" x="187" y="109">
+Ready</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="94" x2="317" y1="119" y2="119"/>
+<text font-family="Dialog" font-size="12" x="96" y="131">
+entry /display welcome message</text>
+<text font-family="Dialog" font-size="12" x="96" y="146">
+do /initialize server services</text>
+<rect fill="#00ff" height="74" rx="16" ry="16" stroke="#00ff" stroke-width="1" width="224" x="390" y="96"/>
+<rect fill="#ffffff" height="74" rx="16" ry="16" stroke="#000000" stroke-width="1" width="224" x="390" y="96"/>
+<rect fill="#ffffff" height="72" rx="16" ry="16" stroke="#ffffff" stroke-width="1" width="222" x="391" y="97"/>
+<text font-family="Dialog" font-size="12" x="476" y="109">
+Running</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="390" x2="613" y1="119" y2="119"/>
+<text font-family="Dialog" font-size="12" x="392" y="131">
+entry /waiting for client requests</text>
+<text font-family="Dialog" font-size="12" x="392" y="146">
+do /handle request</text>
+<text font-family="Dialog" font-size="12" x="392" y="161">
+exit /stop server</text>
+<rect fill="#00ff" height="72" rx="16" ry="16" stroke="#00ff" stroke-width="1" width="224" x="390" y="320"/>
+<rect fill="#ffffff" height="72" rx="16" ry="16" stroke="#000000" stroke-width="1" width="224" x="390" y="320"/>
+<rect fill="#ffffff" height="70" rx="16" ry="16" stroke="#ffffff" stroke-width="1" width="222" x="391" y="321"/>
+<text font-family="Dialog" font-size="12" x="463" y="333">
+ExitMessage</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="390" x2="613" y1="343" y2="343"/>
+<text font-family="Dialog" font-size="12" x="392" y="355">
+entry /display exit message</text>
+<text font-family="Dialog" font-size="12" x="392" y="370">
+do /waiting for user confirm</text>
+<ellipse cx="22" cy="136" fill="#000000" rx="8.0" ry="8.0" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="30,136 94,136" stroke="#333399" stroke-width="1"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="82" x2="94" y1="143" y2="136"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="82" x2="94" y1="129" y2="136"/>
+<text font-family="Dialog" font-size="12" x="46" y="131">
+entry</text>
+<rect fill="#00ff" height="72" rx="16" ry="16" stroke="#00ff" stroke-width="1" width="224" x="390" y="456"/>
+<rect fill="#ffffff" height="72" rx="16" ry="16" stroke="#000000" stroke-width="1" width="224" x="390" y="456"/>
+<rect fill="#ffffff" height="70" rx="16" ry="16" stroke="#ffffff" stroke-width="1" width="222" x="391" y="457"/>
+<text font-family="Dialog" font-size="12" x="481" y="469">
+Closed</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="390" x2="613" y1="479" y2="479"/>
+<text font-family="Dialog" font-size="12" x="392" y="491">
+do /close server</text>
+<text font-family="Dialog" font-size="12" x="392" y="506">
+exit /display confirm server closed</text>
+<rect fill="#00ff" height="72" rx="16" ry="16" stroke="#00ff" stroke-width="1" width="224" x="702" y="96"/>
+<rect fill="#ffffff" height="72" rx="16" ry="16" stroke="#000000" stroke-width="1" width="224" x="702" y="96"/>
+<rect fill="#ffffff" height="70" rx="16" ry="16" stroke="#ffffff" stroke-width="1" width="222" x="703" y="97"/>
+<text font-family="Dialog" font-size="12" x="787" y="109">
+Stopped</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="702" x2="925" y1="119" y2="119"/>
+<text font-family="Dialog" font-size="12" x="704" y="131">
+do /stop server</text>
+<polyline fill="none" points="542,169 542,216 798,216 798,167" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="805" x2="798" y1="179" y2="167"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="791" x2="798" y1="179" y2="167"/>
+<text font-family="Dialog" font-size="12" x="603" y="211">
+ [onClick(Stop)] / stop</text>
+<polygon fill="#ffffff" points="502,232 518,248 502,264 486,248" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="502,232 518,248 502,264 486,248" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="206,167 206,248 486,248" stroke="#333399" stroke-width="1"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="474" x2="486" y1="255" y2="248"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="474" x2="486" y1="241" y2="248"/>
+<text font-family="Dialog" font-size="12" x="254" y="243">
+ [onClick(Close)]</text>
+<polyline fill="none" points="502,169 502,232" stroke="#333399" stroke-width="1"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="495" x2="502" y1="220" y2="232"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="509" x2="502" y1="220" y2="232"/>
+<polyline fill="none" points="830,167 830,248 518,248" stroke="#333399" stroke-width="1"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="530" x2="518" y1="241" y2="248"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="530" x2="518" y1="255" y2="248"/>
+<text font-family="Dialog" font-size="12" x="664" y="243">
+ [onClick(Close)]</text>
+<polyline fill="none" points="502,391 502,456" stroke="#333399" stroke-width="1"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="495" x2="502" y1="444" y2="456"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="509" x2="502" y1="444" y2="456"/>
+<text font-family="Dialog" font-size="12" x="506" y="422">
+ [onClick(Yes)] / close</text>
+<polygon fill="#ffffff" points="502,16 518,32 502,48 486,32" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="502,16 518,32 502,48 486,32" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="502,48 502,96" stroke="#333399" stroke-width="1"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="495" x2="502" y1="84" y2="96"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="509" x2="502" y1="84" y2="96"/>
+<text font-family="Dialog" font-size="12" x="504" y="70">
+startServer</text>
+<polyline fill="none" points="502,264 502,320" stroke="#333399" stroke-width="1"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="495" x2="502" y1="308" y2="320"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="509" x2="502" y1="308" y2="320"/>
+<text font-family="Dialog" font-size="12" x="506" y="298">
+displayMessage</text>
+<polyline fill="none" points="214,96 214,32 486,32" stroke="#333399" stroke-width="1"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="474" x2="486" y1="39" y2="32"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="474" x2="486" y1="25" y2="32"/>
+<text font-family="Dialog" font-size="12" x="269" y="27">
+ [onClick(Start)]</text>
+<polyline fill="none" points="814,96 814,32 518,32" stroke="#333399" stroke-width="1"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="530" x2="518" y1="25" y2="32"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="530" x2="518" y1="39" y2="32"/>
+<text font-family="Dialog" font-size="12" x="649" y="27">
+ [onClick(Start)]</text>
+</svg>

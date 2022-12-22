@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="279" version="1.1" width="764" xmlns="http://www.w3.org/2000/svg">
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="86" x2="86" y1="63" y2="68"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="86" x2="86" y1="73" y2="78"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="86" x2="86" y1="83" y2="88"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="86" x2="86" y1="93" y2="98"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="86" x2="86" y1="103" y2="108"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="86" x2="86" y1="113" y2="118"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="86" x2="86" y1="123" y2="128"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="86" x2="86" y1="133" y2="138"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="86" x2="86" y1="143" y2="148"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="86" x2="86" y1="153" y2="158"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="86" x2="86" y1="163" y2="168"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="86" x2="86" y1="173" y2="175"/>
+<rect fill="#ffffff" height="112" stroke="#ffffff" stroke-width="1" width="20" x="76" y="63"/>
+<rect fill="none" height="112" stroke="#000000" stroke-width="1" width="20" x="76" y="63"/>
+<rect fill="#ffffff" height="50" stroke="#ffffff" stroke-width="1" width="144" x="14" y="14"/>
+<rect fill="none" height="50" stroke="#000000" stroke-width="1" width="144" x="14" y="14"/>
+<text font-family="Dialog" font-size="13" x="57" y="28">
+:UIStrate</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="266" x2="266" y1="63" y2="68"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="266" x2="266" y1="73" y2="78"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="266" x2="266" y1="83" y2="88"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="266" x2="266" y1="93" y2="98"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="266" x2="266" y1="103" y2="108"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="266" x2="266" y1="113" y2="118"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="266" x2="266" y1="123" y2="128"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="266" x2="266" y1="133" y2="138"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="266" x2="266" y1="143" y2="148"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="266" x2="266" y1="153" y2="158"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="266" x2="266" y1="163" y2="168"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="266" x2="266" y1="173" y2="175"/>
+<rect fill="#ffffff" height="81" stroke="#ffffff" stroke-width="1" width="20" x="256" y="94"/>
+<rect fill="none" height="81" stroke="#000000" stroke-width="1" width="20" x="256" y="94"/>
+<rect fill="#ffffff" height="50" stroke="#ffffff" stroke-width="1" width="152" x="190" y="14"/>
+<rect fill="none" height="50" stroke="#000000" stroke-width="1" width="152" x="190" y="14"/>
+<text font-family="Dialog" font-size="13" x="232" y="28">
+:CPaziente</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="682" x2="682" y1="63" y2="68"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="682" x2="682" y1="73" y2="78"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="682" x2="682" y1="83" y2="88"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="682" x2="682" y1="93" y2="98"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="682" x2="682" y1="103" y2="108"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="682" x2="682" y1="113" y2="118"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="682" x2="682" y1="123" y2="128"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="682" x2="682" y1="133" y2="138"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="682" x2="682" y1="143" y2="148"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="682" x2="682" y1="153" y2="158"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="682" x2="682" y1="163" y2="168"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="682" x2="682" y1="173" y2="175"/>
+<rect fill="#ffffff" height="25" stroke="#ffffff" stroke-width="1" width="20" x="672" y="150"/>
+<rect fill="none" height="25" stroke="#000000" stroke-width="1" width="20" x="672" y="150"/>
+<rect fill="#ffffff" height="50" stroke="#ffffff" stroke-width="1" width="136" x="614" y="14"/>
+<rect fill="none" height="50" stroke="#000000" stroke-width="1" width="136" x="614" y="14"/>
+<text font-family="Dialog" font-size="13" x="670" y="28">
+:DB</text>
+<polyline fill="none" points="276,150 672,150" stroke="#000000" stroke-width="1"/>
+<polygon fill="#000000" points="672,150 660,157 660,143" stroke="#000000" stroke-width="1"/>
+<polygon fill="none" points="672,150 660,157 660,143" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="272" y="144">
+bool isOk = registerNewPatient(p)</text>
+<ellipse cx="474" cy="148" fill="#000000" rx="0.5" ry="0.5" stroke="#000000" stroke-width="1"/>
+<ellipse cx="475" cy="149" fill="#ffffff" rx="-0.5" ry="-0.5" stroke="#ffffff" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="558" x2="558" y1="134" y2="139"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="558" x2="558" y1="144" y2="149"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="558" x2="558" y1="154" y2="159"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="558" x2="558" y1="164" y2="169"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="558" x2="558" y1="174" y2="175"/>
+<rect fill="#ffffff" height="41" stroke="#ffffff" stroke-width="1" width="20" x="548" y="134"/>
+<rect fill="none" height="41" stroke="#000000" stroke-width="1" width="20" x="548" y="134"/>
+<rect fill="#ffffff" height="50" stroke="#ffffff" stroke-width="1" width="96" x="510" y="85"/>
+<rect fill="none" height="50" stroke="#000000" stroke-width="1" width="96" x="510" y="85"/>
+<text font-family="Dialog" font-size="13" x="514" y="99">
+:ModelPatient</text>
+<polyline fill="none" points="276,110 510,110" stroke="#000000" stroke-width="1"/>
+<polygon fill="#000000" points="510,110 498,117 498,103" stroke="#000000" stroke-width="1"/>
+<polygon fill="none" points="510,110 498,117 498,103" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="322" y="104">
+ModelPatient p = create()</text>
+<polygon fill="#ffffff" points="326,206 536,206 546,216 546,264 326,264 326,206" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="326,206 536,206 546,216 546,264 326,264 326,206" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="536,206 546,216 536,216 536,206" stroke="#ffffff" stroke-width="1"/>
+<polyline fill="none" points="536,206 546,216 536,216 536,206" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="329" y="222">
+se il paziente esiste già la</text>
+<text font-family="Dialog" font-size="13" x="329" y="239">
+creazione fallisce. Se il paziente</text>
+<text font-family="Dialog" font-size="13" x="329" y="256">
+non esiste viene inserito nel DB.</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="474" x2="474" y1="206" y2="201"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="474" x2="474" y1="196" y2="191"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="474" x2="474" y1="186" y2="181"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="474" x2="474" y1="176" y2="171"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="474" x2="474" y1="166" y2="161"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="474" x2="474" y1="156" y2="151"/>
+<polyline fill="none" points="96,94 256,94" stroke="#000000" stroke-width="1"/>
+<polygon fill="#000000" points="256,94 244,101 244,87" stroke="#000000" stroke-width="1"/>
+<polygon fill="none" points="256,94 244,101 244,87" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="13" x="114" y="88">
+registerNewPatient()</text>
+</svg>

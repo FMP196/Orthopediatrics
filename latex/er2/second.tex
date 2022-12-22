@@ -1,0 +1,46 @@
+\documentclass[9pt]{article}
+
+\usepackage{tikz-er2}
+\usepackage{tikz}
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\usepackage{amsfonts}
+\usepackage{amsmath,amsthm}
+\usepackage{amsthm}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}
+\usepackage{pgf}
+\usepackage{pgffor}
+\usepgfmodule{shapes}
+\usepgfmodule{plot}
+\usetikzlibrary{decorations}
+\usetikzlibrary{arrows}
+\usetikzlibrary{snakes}
+
+\begin{document}
+\begin{center}
+
+\begin{tikzpicture}[node distance=10em]
+% attribute
+\node[entity] 		(paziente) 	{\it{Paziente}};
+\node[relationship]	(mpaziente)	[above right of=paziente] {\it{Mess. Paziente}} 
+					edge node [right,swap] {(0,N)} (paziente);
+\node[relationship]	(mamminist)	[above of=mpaziente] {\it{Mess. Amministratore}} 
+					edge node [left,swap] {(0,N)} (paziente);
+\node[relationship]	(visita)	[below right of=mpaziente] {\it{Visita}} edge node [auto,swap] {(0,N)} (paziente);
+\node[entity]		(prenotaz)	[right of=visita] {\it{Prenotazione}} edge node [auto,swap] {(1,1)} (visita);
+\node[relationship]	(locazione)	[below right of=prenotaz]	{\it{Locazione}}  edge node [left,swap] {(1,1)} (prenotaz);
+\node[entity]		(sala)		[right of=locazione]	{\it{Sala}} edge node [auto,swap] {(0,N)} (locazione);
+\node[relationship]	(direzione)	[above of=sala]		{\it{Attribuzione}} edge node [left,swap] {(1,1)} (sala);
+\node[entity] 		(amministr)	[above of=direzione]{\it{Amministratore}}
+					edge node [left,swap] {(0,N)} (mpaziente)
+					edge node [right,swap] {(0,N)} (mamminist)
+					edge node [auto,swap] {(2,2)} (direzione);
+\node[relationship] (tutoring)  [below of=paziente]	{\it{Tutoraggio}.} edge node [left,swap] {(0,1)} (paziente);
+\node[entity]	(tutore)	[below of=tutoring] 	{\it{Tutore}} edge node [left,swap] {(1,N)} (tutoring);
+\node[relationship] (conclusione) [below left of=prenotaz] {\it{Conclusione}}  edge node [auto,swap]  {(0,1)} (prenotaz);
+\node[entity] (referto) [below of=conclusione] {\it{Referto}.}  edge node [auto,swap] {(1,1)} (conclusione);
+\end{tikzpicture}
+
+\end{center}
+\end{document}

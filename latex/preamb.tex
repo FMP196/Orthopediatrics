@@ -1,0 +1,271 @@
+%% LyX 1.6.5 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,english,italian]{amsbook}
+
+%\usepackage{savesym}
+%\usepackage{makeidx}
+%\savesymbol{see}\savesymbol{end}
+%\restoresymbols{mammagamma}{see}
+%\restoresymbols{mammagamma}{end}
+
+\usepackage[all]{xy}
+\usepackage{framed}
+
+\usepackage{lmodern}
+\usepackage{tikz-er2}
+\usepackage{tikz,xifthen}
+\usepackage{pgf}
+\usepackage{listings}
+\usepackage{courier}
+\usepackage{paralist}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{braket}
+\usepackage[a4paper]{geometry}
+% \geometry{verbose,tmargin=4cm,bmargin=4cm,lmargin=1.25cm,rmargin=1.25cm,headheight=2cm,headsep=2cm,footskip=2cm}
+\setcounter{secnumdepth}{9}
+\setcounter{tocdepth}{9}
+\usepackage{color}
+
+\usepackage{mathpazo}
+\usepackage[tight,italian]{minitoc}
+\usepackage{array}
+\usepackage{float}
+\usepackage{units}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{rotating}
+\usepackage[italian]{varioref}
+\usepackage{subfig}
+\usepackage{ulem}
+
+%% NOTA: makeidx già supportato da ams
+
+%% MATH
+\usepackage{amsfonts}
+\usepackage{amsmath,amsthm}
+\usepackage{amsthm}
+\usepackage{mathpazo}
+\usepackage{amssymb}
+\usepackage{mathdots}
+\usepackage{synttree}
+\PassOptionsToPackage{normalem}{ulem}
+\usepackage{ulem}
+
+%% BIBLIOGRAPHY
+\usepackage[italian]{babel}
+\usepackage[babel]{csquotes}
+\usepackage{biblatex}
+\bibliography{bibliografia}
+
+\usepackage[unicode=true, pdfusetitle,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
+ {hyperref}
+
+\makeatletter
+
+\newcommand{\noun}[1]{\textsc{#1}}
+%% Special footnote code from the package 'stblftnt.sty'
+%% Author: Robin Fairbairns -- Last revised Dec 13 1996
+\let\SF@@footnote\footnote
+\def\footnote{\ifx\protect\@typeset@protect
+    \expandafter\SF@@footnote
+  \else
+    \expandafter\SF@gobble@opt
+  \fi
+}
+\expandafter\def\csname SF@gobble@opt \endcsname{\@ifnextchar[%]
+  \SF@gobble@twobracket
+  \@gobble
+}
+\edef\SF@gobble@opt{\noexpand\protect
+  \expandafter\noexpand\csname SF@gobble@opt \endcsname}
+\def\SF@gobble@twobracket[#1]#2{}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+\floatstyle{ruled}
+\newfloat{algorithm}{tbp}{loa}
+\floatname{algorithm}{Algorithm}
+
+\numberwithin{section}{chapter}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+ %\theoremstyle{definition}
+ %\newtheorem{defin}{Definizione}
+ \newtheorem*{defn*}{Definizione}
+ \newtheorem{defin}{Definizione}
+  \newtheorem*{prop*}{Proposizione}
+  %\theoremstyle{definition}
+  \newtheorem*{problem*}{Problema}
+  %\theoremstyle{definition}
+  \newtheorem*{example*}{Esempio}
+  \newtheorem{example}{Esempio}[chapter]
+  \newtheorem{ex}{Esercizio}[chapter]
+  \newtheorem*{lem*}{Lemma}
+  \newtheorem*{thm*}{Teorema}
+\newtheorem{thm}{Teorema}[section]
+\newtheorem{coroll}{Corollario}[section]
+\newtheorem{theorem}{Teorema}[section]
+  \newtheorem{prop}{Proposizione}[section]
+  \newtheorem{lem}{Lemma}[section]
+  %\theoremstyle{definition}
+  \newtheorem{defn}{Definizione}[section]
+  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{listings}
+%\usepackage[usenames]{color}
+\usepackage{courier}
+ \lstset{
+         basicstyle=\footnotesize\ttfamily, % Standardschrift
+         %numbers=left,               % Ort der Zeilennummern
+         numberstyle=\tiny,          % Stil der Zeilennummern
+         %stepnumber=2,               % Abstand zwischen den Zeilennummern
+         numbersep=5pt,              % Abstand der Nummern zum Text
+         tabsize=2,                  % Groesse von Tabs
+         extendedchars=true,         %
+         breaklines=true,            % Zeilen werden Umgebrochen
+         keywordstyle=\bfseries,
+    		frame=b,         
+ %        keywordstyle=[1]\textbf,    % Stil der Keywords
+ %        keywordstyle=[2]\textbf,    %
+ %        keywordstyle=[3]\textbf,    %
+ %        keywordstyle=[4]\textbf,   \sqrt{\sqrt{}} %
+         stringstyle=\color{white}\ttfamily, % Farbe der String
+         showspaces=false,           % Leerzeichen anzeigen ?
+         showtabs=false,             % Tabs anzeigen ?
+         xleftmargin=17pt,
+         framexleftmargin=17pt,
+         framexrightmargin=5pt,
+         framexbottommargin=4pt,
+         %backgroundcolor=\color{lightgray},
+         showstringspaces=false      % Leerzeichen in Strings anzeigen ?  
+ }
+ \lstloadlanguages{% Check Dokumentation for further languages ...
+         %[Visual]Basic
+         %Pascal
+         %C
+         %C++
+         %XML
+         %HTML
+         Java
+ }
+    %\DeclareCaptionFont{blue}{\color{blue}} 
+
+  %\captionsetup[lstlisting]{singlelinecheck=false, labelfont={blue}, textfont={blue}}
+  \usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox[cmyk]{0.43, 0.35, 0.35,0.01}{\parbox{\textwidth}{\hspace{15pt}#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
+\lstdefinelanguage{concurrentg}  {
+morekeywords={while, cobegin, coend, do, if, true, false, else, void, int, new, for, shared, let, rec, then, to, match, with, raise, done, begin, end, not, each, in, return},
+morecomment=[s][]{/*}{*/},
+morestring=[b][\color{red}]"
+}
+\lstdefinelanguage{Scheme}  {
+morekeywords={set,first,cons,make,struct,cond,true,false},
+morecomment=[l]{;},
+}
+\lstset{defaultdialect=[Visual]Basic}
+\lstnewenvironment{concurrentg}{\lstset{language=concurrentg}}{}
+
+
+
+
+
+% mie definizoni 
+\newcommand{\diam}{\item[$\diamond$]} % punto elenco diamante
+\newcommand{\cerc}{\item[$\circ$]} % punto elenco cerchio
+\newcommand{\suspence}{[\dots]} % ellissi
+\newcommand{\opquote}{«}
+\newcommand{\clquote}{»}
+\newcommand{\reffig}{Figura}
+\newcommand{\singlediam}[1]{\begin{itemize}\diam #1\end{itemize}} % un solo punto elenco con diamante
+\newcommand{\ttilde}{\textasciitilde{}  } % scrittura semplificata della tilde
+\renewcommand{\*}{\cdot}
+\renewcommand{\d}{\$}
+\newcommand{\myquote}[2]{«\emph{#1}»(#2)}
+\newcommand{\myquotu}[1]{«\emph{#1}»}
+\newcommand{\textbb}[1]{$\mathbb{#1}$}
+
+\newcommand{\nat}{\mathbb N}
+\newcommand{\real}{\mathbb R}
+\newcommand{\bool}{\mathbb B}
+\newcommand{\lang}{\mathcal L}
+\newcommand{\down}{\downarrow}
+\newcommand{\up}{\uparrow}
+
+
+%% Form Net
+\newsavebox{\sembox}
+\newlength{\semwidth}
+\newlength{\boxwidth}
+
+\newcommand{\Sem}[1]{%
+\sbox{\sembox}{\ensuremath{#1}}%
+\settowidth{\semwidth}{\usebox{\sembox}}%
+\sbox{\sembox}{\ensuremath{\left[\usebox{\sembox}\right]}}%
+\settowidth{\boxwidth}{\usebox{\sembox}}%
+\addtolength{\boxwidth}{-\semwidth}%
+\left[\hspace{-0.3\boxwidth}%
+\usebox{\sembox}%
+\hspace{-0.3\boxwidth}\right]%
+}
+
+ % definizione dell'elenco con le lettere (wikipedia.en)
+%\arabic 	1, 2, 3 ...
+%\alph 	a, b, c ...
+%\Alph 	A, B, C ...
+%\roman 	i, ii, iii ...
+%\Roman 	I, II, III ...
+%\fnsymbol 	Aimed at footnotes (see below), but prints a sequence of symbols.
+ % come consigliato dalla Nasa (http://www.giss.nasa.gov/tools/latex/ltx-222.html):
+ % \renewcommand{\labelenumi}{\emph{(\alph{enumi})}}
+\newenvironment{itmletters}[1]{\begin{enumerate}\renewcommand{\labelenumi}{\emph{#1}}}
+                              {\end{enumerate}}
+\newenvironment{stab}{\begin{table}\begin{shaded}}
+                              {\end{shaded}\end{table}}
+ % questo comando crea l'elenco con i letterali definiti sopra
+\newcommand{\atm}{\alph{enumi}}
+ % questo comando serve per indicare in quello sopra l'enumerazione della prima serie di numeri
+ % come di 
+\newcommand{\itm}{\roman{enumi}}
+\newcommand{\cent}[1]{\begin{center}#1\end{center}}
+\newcommand{\textcal}[1]{$\mathcal{#1}$}
+                        
+\newcommand{\startfrom}[1]{\setcounter{enumi}{#1}}
+\newcommand{\ttitem}[1]{\item \texttt{#1}}
+\newcommand{\tleq}{$\leq$} 
+\newcommand{\tgeq}{$\geq$}
+
+
+\newtheorem{prob}{Problema}[section]
+\newtheorem{xmpl}{Esempio}[section]
+\newtheorem{propr}{Proprietà}[section]
+
+\hypersetup{
+ pdfsubject={Relazione finale},
+ pdfkeywords={progetto lis relazione xyzt}}
+
+%% ONLY FOR L.I.S PROJECT :)
+%% http://student.cosy.sbg.ac.at/~hhofbaue/se1/index.shtml
+\newenvironment{CRCcard}[3]{
+\begin{tabular}{ll}
+\toprule
+\multicolumn{2}{l}{\bf{#1}}\\
+\textit{Superclasses}: 	& #2\\
+\textit{Subclasses}:	& #3\\
+\hline
+\textit{Responsibilities} &\textit{Collaborators}\\}
+{\bottomrule
+\end{tabular}}
+
+\newcommand{\rcline}[2]{ \textit{#1}: & \textsc{#2} \\ }	
+
+
+\makeindex
+\makeatother
+\dominitoc

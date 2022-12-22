@@ -1,0 +1,16 @@
+\part{Documento Quinto}
+\chapter{Valutazione finale}
+\minitoc\mtcskip
+In quest'ultima parte, ci proponiamo di effettuare un'ultima revisione dei 
+diagrammi precedentemente forniti, in quanto in fase di implementazione si
+sono effettuate scelte stilistiche differenti da quelle precedentemente
+fornite (Sezione \vref{sec:ddimpl}).
+
+Ci proponiamo in fine di generare un'ultima revisione delle stime precedentemente
+effettuate, allo scopo di dimostrare la qualità del software da noi prodotto
+(Sezione \vref{sec:valdprod}). 
+
+In questa sezione inseriamo la parte di Diario (v. ) riguardante anche il Documento
+precedente (v. Parte \vref{part:docQuar}.)
+
+

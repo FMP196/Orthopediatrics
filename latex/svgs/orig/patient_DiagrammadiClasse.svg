@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="320" version="1.1" width="566" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#ffffff" height="292" stroke="#ffffff" stroke-width="1" width="538" x="14" y="14"/>
+<rect fill="none" height="292" stroke="#000000" stroke-width="1" width="538" x="14" y="14"/>
+<text font-family="Lucida Grande" font-size="13" x="260" y="28">
+System</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="538" x="14" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="538" x="14" y="84"/>
+<text font-family="Lucida Grande" font-size="13" x="18" y="99">
+login(userName, userPassword)</text>
+<text font-family="Lucida Grande" font-size="13" x="18" y="116">
+fetchReservation()</text>
+<text font-family="Lucida Grande" font-size="13" x="18" y="133">
+bindTutorForPatient(tutorName, tutorPass)</text>
+<text font-family="Lucida Grande" font-size="13" x="18" y="150">
+registerNewPatient(name,surname,address,phoneContatc,emailContact,birthday,username,password)</text>
+<text font-family="Lucida Grande" font-size="13" x="18" y="167">
+tutorCredentials(tutorName, tutorPassword)</text>
+<text font-family="Lucida Grande" font-size="13" x="18" y="184">
+registerNewPatientFromTutor(tutorName, tutorPassword)</text>
+<text font-family="Lucida Grande" font-size="13" x="18" y="201">
+printOnSupport(elem, givenSupport)</text>
+<text font-family="Lucida Grande" font-size="13" x="18" y="218">
+fetchReport(reservation)</text>
+<text font-family="Lucida Grande" font-size="13" x="18" y="235">
+deferReservation(reservation)</text>
+<text font-family="Lucida Grande" font-size="13" x="18" y="252">
+retireReservation(reservation)</text>
+<text font-family="Lucida Grande" font-size="13" x="18" y="269">
+reserveVisit(description, admin)</text>
+</svg>
